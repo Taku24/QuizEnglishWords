@@ -1,0 +1,6 @@
+version: "Apple Swift version 3.0 (swiftlang-800.0.46.2 clang-800.0.38)"
+options: "069b73536a09bd00e0e3158553ac8d75"
+build_time: [530603906, 156376000]
+inputs:
+  "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/QuizEnglishWords/ViewController.swift": [530603901, 0]
+  "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/QuizEnglishWords/AppDelegate.swift": [530603901, 0]
