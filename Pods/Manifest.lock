@@ -1,0 +1,20 @@
+PODS:
+  - FlatUIKit (1.6.2)
+  - Realm (1.1.0):
+    - Realm/Headers (= 1.1.0)
+  - Realm/Headers (1.1.0)
+  - RealmSwift (1.1.0):
+    - Realm (= 1.1.0)
+
+DEPENDENCIES:
+  - FlatUIKit
+  - RealmSwift
+
+SPEC CHECKSUMS:
+  FlatUIKit: 1b41f0d4952ce8d970d8479ce79df54a960242c4
+  Realm: ceecf1a4540c4ce9efe196fe73fa9855bce05bd8
+  RealmSwift: 838058b2db95b12cb86bd0cf209df642c33fb60a
+
+PODFILE CHECKSUM: caabbfa468e5dafc6c2702444a4c9856659d94b5
+
+COCOAPODS: 1.0.1
