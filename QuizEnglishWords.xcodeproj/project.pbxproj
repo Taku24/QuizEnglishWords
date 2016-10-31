@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		31B3B95B1DBDDA7D009082B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B3B95A1DBDDA7D009082B6 /* AppDelegate.swift */; };
-		31B3B95D1DBDDA7D009082B6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B3B95C1DBDDA7D009082B6 /* ViewController.swift */; };
+		31B3B95D1DBDDA7D009082B6 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B3B95C1DBDDA7D009082B6 /* MainViewController.swift */; };
 		31B3B9601DBDDA7D009082B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31B3B95E1DBDDA7D009082B6 /* Main.storyboard */; };
 		31B3B9621DBDDA7D009082B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31B3B9611DBDDA7D009082B6 /* Assets.xcassets */; };
 		31B3B9651DBDDA7D009082B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31B3B9631DBDDA7D009082B6 /* LaunchScreen.storyboard */; };
@@ -18,7 +18,7 @@
 /* Begin PBXFileReference section */
 		31B3B9571DBDDA7D009082B6 /* QuizEnglishWords.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuizEnglishWords.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		31B3B95A1DBDDA7D009082B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		31B3B95C1DBDDA7D009082B6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		31B3B95C1DBDDA7D009082B6 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		31B3B95F1DBDDA7D009082B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		31B3B9611DBDDA7D009082B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		31B3B9641DBDDA7D009082B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -80,7 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				31B3B95A1DBDDA7D009082B6 /* AppDelegate.swift */,
-				31B3B95C1DBDDA7D009082B6 /* ViewController.swift */,
+				31B3B95C1DBDDA7D009082B6 /* MainViewController.swift */,
 				CF9D93831DBDE6BF00EDB424 /* QuizEnglishWords-Bridging-Header.h */,
 				31B3B95E1DBDDA7D009082B6 /* Main.storyboard */,
 				31B3B9611DBDDA7D009082B6 /* Assets.xcassets */,
@@ -229,7 +229,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31B3B95D1DBDDA7D009082B6 /* ViewController.swift in Sources */,
+				31B3B95D1DBDDA7D009082B6 /* MainViewController.swift in Sources */,
 				31B3B95B1DBDDA7D009082B6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
