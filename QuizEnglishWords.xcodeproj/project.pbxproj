@@ -13,6 +13,7 @@
 		31B3B9621DBDDA7D009082B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31B3B9611DBDDA7D009082B6 /* Assets.xcassets */; };
 		31B3B9651DBDDA7D009082B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31B3B9631DBDDA7D009082B6 /* LaunchScreen.storyboard */; };
 		893E7238E56E6F1060A984AA /* Pods_QuizEnglishWords.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A94EDD5299AF589428A8AFE /* Pods_QuizEnglishWords.framework */; };
+		CFCE56641DD04F3F0085C791 /* WordList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFCE56631DD04F3F0085C791 /* WordList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		8E3E9B29D4440E7C551357A0 /* Pods-QuizEnglishWords.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuizEnglishWords.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QuizEnglishWords/Pods-QuizEnglishWords.debug.xcconfig"; sourceTree = "<group>"; };
 		B917296A5CD85B0574FAB442 /* Pods-QuizEnglishWords.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuizEnglishWords.release.xcconfig"; path = "Pods/Target Support Files/Pods-QuizEnglishWords/Pods-QuizEnglishWords.release.xcconfig"; sourceTree = "<group>"; };
 		CF9D93831DBDE6BF00EDB424 /* QuizEnglishWords-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QuizEnglishWords-Bridging-Header.h"; sourceTree = "<group>"; };
+		CFCE56631DD04F3F0085C791 /* WordList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				31B3B9611DBDDA7D009082B6 /* Assets.xcassets */,
 				31B3B9631DBDDA7D009082B6 /* LaunchScreen.storyboard */,
 				31B3B9661DBDDA7D009082B6 /* Info.plist */,
+				CFCE56631DD04F3F0085C791 /* WordList.swift */,
 			);
 			path = QuizEnglishWords;
 			sourceTree = "<group>";
@@ -230,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				31B3B95D1DBDDA7D009082B6 /* MainViewController.swift in Sources */,
+				CFCE56641DD04F3F0085C791 /* WordList.swift in Sources */,
 				31B3B95B1DBDDA7D009082B6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
