@@ -23,6 +23,8 @@ class MainViewController: UIViewController {
         testBtm = createButton(button: testBtm,mainColor: UIColor.amethyst(), shadowColor: UIColor.wisteria(), titleText:"テストを開始する")
         listBtm = createButton(button: listBtm,mainColor: UIColor.carrot(), shadowColor: UIColor.pumpkin(), titleText: "単語リスト")
         missListBtm = createButton(button: missListBtm,mainColor: UIColor.emerland(), shadowColor: UIColor.nephritis(), titleText: "間違えリスト")
+        
+        listBtm.addTarget(self, action: #selector(MainViewController.moveWordListView), for: .touchUpInside)
     }
 
     override func didReceiveMemoryWarning() {
@@ -42,5 +44,10 @@ class MainViewController: UIViewController {
         return button
     }
 
+    func moveWordListView(){
+        let listVC = WordList()
+        self.navigationController?.pushViewController(listVC, animated: true)
+    }
+    
 }
 
