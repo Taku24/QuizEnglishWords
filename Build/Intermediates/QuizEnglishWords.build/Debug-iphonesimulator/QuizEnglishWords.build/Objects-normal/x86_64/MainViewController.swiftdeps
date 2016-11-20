@@ -8,23 +8,23 @@ provides-member:
 - ["C16QuizEnglishWords18MainViewController", "setUpButton"]
 - ["C16QuizEnglishWords18MainViewController", "moveWordListView"]
 provides-dynamic-lookup:
-- "didReceiveMemoryWarning"
-- "missListBtm"
-- "moveWordListView"
-- "testBtm"
-- "viewDidLoad"
 - "listBtm"
+- "didReceiveMemoryWarning"
+- "moveWordListView"
+- "viewDidLoad"
+- "testBtm"
+- "missListBtm"
 - "setUpButton"
 depends-top-level:
-- "AssignmentPrecedence"
-- "MainViewController"
-- "UIViewController"
 - !private "UIColor"
-- !private "BooleanLiteralType"
-- !private "StringLiteralType"
+- "AssignmentPrecedence"
 - "FUIButton"
-- !private "CreateButton"
+- "UIViewController"
 - !private "WordListViewController"
+- !private "BooleanLiteralType"
+- !private "CreateButton"
+- "MainViewController"
+- !private "StringLiteralType"
 depends-member:
 - !private ["Ps9AnyObject", "CreateButton"]
 - !private ["Ps9AnyObject", "MainViewController"]

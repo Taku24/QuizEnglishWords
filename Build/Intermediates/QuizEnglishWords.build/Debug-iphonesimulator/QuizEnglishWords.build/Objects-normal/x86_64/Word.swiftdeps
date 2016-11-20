@@ -7,8 +7,8 @@ provides-member:
 - ["C16QuizEnglishWords4Word", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "Word"
 - "AssignmentPrecedence"
+- "Word"
 - "String"
 depends-member:
 - !private ["Ps9AnyObject", "answer"]
