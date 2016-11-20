@@ -137,7 +137,6 @@ SWIFT_CLASS("_TtC16QuizEnglishWords11AppDelegate")
 @end
 
 @class FUIButton;
-@class UIColor;
 @class NSBundle;
 @class NSCoder;
 
@@ -148,25 +147,38 @@ SWIFT_CLASS("_TtC16QuizEnglishWords18MainViewController")
 @property (nonatomic, weak) IBOutlet FUIButton * _Null_unspecified missListBtm;
 - (void)viewDidLoad;
 - (void)didReceiveMemoryWarning;
-- (FUIButton * _Nonnull)createButtonWithButton:(FUIButton * _Nonnull)button mainColor:(UIColor * _Nonnull)mainColor shadowColor:(UIColor * _Nonnull)shadowColor titleText:(NSString * _Nonnull)titleText;
-- (void)moveWordListView;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class UITableView;
-@class UITableViewCell;
 
-SWIFT_CLASS("_TtC16QuizEnglishWords8WordList")
-@interface WordList : UIViewController <UIScrollViewDelegate, UITableViewDelegate, UITableViewDataSource>
+@interface MainViewController (SWIFT_EXTENSION(QuizEnglishWords))
+- (void)setUpButton;
+- (void)moveWordListView;
+@end
+
+@class UITableView;
+
+SWIFT_CLASS("_TtC16QuizEnglishWords22WordListViewController")
+@interface WordListViewController : UIViewController
 @property (nonatomic, copy) NSArray<NSString *> * _Nonnull array;
 @property (nonatomic, readonly, strong) UITableView * _Nonnull wordListView;
 - (void)viewDidLoad;
 - (void)didReceiveMemoryWarning;
-- (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section;
-- (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+@interface WordListViewController (SWIFT_EXTENSION(QuizEnglishWords)) <UITableViewDelegate, UIScrollViewDelegate>
+- (void)tableView:(UITableView * _Nonnull)tableView didSelectRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
+@end
+
+@class UITableViewCell;
+
+@interface WordListViewController (SWIFT_EXTENSION(QuizEnglishWords)) <UITableViewDataSource>
+- (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section;
+- (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
 @end
 
 #pragma clang diagnostic pop
