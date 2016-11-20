@@ -1,0 +1,241 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/FlatUIKit/FlatUIKit.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "FUIAlertView.h",
+          'external-contents': "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Pods/FlatUIKit/Classes/ios/FUIAlertView.h"
+        },
+        {
+          'type': 'file',
+          'name': "FUIButton.h",
+          'external-contents': "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Pods/FlatUIKit/Classes/ios/FUIButton.h"
+        },
+        {
+          'type': 'file',
+          'name': "FUICellBackgroundView.h",
+          'external-contents': "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Pods/FlatUIKit/Classes/ios/FUICellBackgroundView.h"
+        },
+        {
+          'type': 'file',
+          'name': "FUIPopoverBackgroundView.h",
+          'external-contents': "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Pods/FlatUIKit/Classes/ios/FUIPopoverBackgroundView.h"
+        },
+        {
+          'type': 'file',
+          'name': "FUISegmentedControl.h",
+          'external-contents': "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Pods/FlatUIKit/Classes/ios/FUISegmentedControl.h"
+        },
+        {
+          'type': 'file',
+          'name': "FUISwitch.h",
+          'external-contents': "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Pods/FlatUIKit/Classes/ios/FUISwitch.h"
+        },
+        {
+          'type': 'file',
+          'name': "FUITextField.h",
+          'external-contents': "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Pods/FlatUIKit/Classes/ios/FUITextField.h"
+        },
+        {
+          'type': 'file',
+          'name': "FlatUIKit-Swift.h",
+          'external-contents': "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/FlatUIKit/FlatUIKit.framework/Headers/FlatUIKit-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "FlatUIKit-umbrella.h",
+          'external-contents': "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Pods/Target Support Files/FlatUIKit/FlatUIKit-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "FlatUIKit.h",
+          'external-contents': "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Pods/FlatUIKit/Classes/ios/FlatUIKit.h"
+        },
+        {
+          'type': 'file',
+          'name': "NSString+Icons.h",
+          'external-contents': "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Pods/FlatUIKit/Classes/ios/NSString+Icons.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIBarButtonItem+FlatUI.h",
+          'external-contents': "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Pods/FlatUIKit/Classes/ios/UIBarButtonItem+FlatUI.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIColor+FlatUI.h",
+          'external-contents': "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Pods/FlatUIKit/Classes/ios/UIColor+FlatUI.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIFont+FlatUI.h",
+          'external-contents': "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Pods/FlatUIKit/Classes/ios/UIFont+FlatUI.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIImage+FlatUI.h",
+          'external-contents': "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Pods/FlatUIKit/Classes/ios/UIImage+FlatUI.h"
+        },
+        {
+          'type': 'file',
+          'name': "UINavigationBar+FlatUI.h",
+          'external-contents': "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Pods/FlatUIKit/Classes/ios/UINavigationBar+FlatUI.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIPopoverController+FlatUI.h",
+          'external-contents': "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Pods/FlatUIKit/Classes/ios/UIPopoverController+FlatUI.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIProgressView+FlatUI.h",
+          'external-contents': "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Pods/FlatUIKit/Classes/ios/UIProgressView+FlatUI.h"
+        },
+        {
+          'type': 'file',
+          'name': "UISlider+FlatUI.h",
+          'external-contents': "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Pods/FlatUIKit/Classes/ios/UISlider+FlatUI.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIStepper+FlatUI.h",
+          'external-contents': "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Pods/FlatUIKit/Classes/ios/UIStepper+FlatUI.h"
+        },
+        {
+          'type': 'file',
+          'name': "UITabBar+FlatUI.h",
+          'external-contents': "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Pods/FlatUIKit/Classes/ios/UITabBar+FlatUI.h"
+        },
+        {
+          'type': 'file',
+          'name': "UITableViewCell+FlatUI.h",
+          'external-contents': "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Pods/FlatUIKit/Classes/ios/UITableViewCell+FlatUI.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIToolbar+FlatUI.h",
+          'external-contents': "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Pods/FlatUIKit/Classes/ios/UIToolbar+FlatUI.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/FlatUIKit/FlatUIKit.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Intermediates/Pods.build/Debug-iphonesimulator/FlatUIKit.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/Pods_QuizEnglishWords.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Pods-QuizEnglishWords-umbrella.h",
+          'external-contents': "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Pods/Target Support Files/Pods-QuizEnglishWords/Pods-QuizEnglishWords-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Pods_QuizEnglishWords-Swift.h",
+          'external-contents': "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/Pods_QuizEnglishWords.framework/Headers/Pods_QuizEnglishWords-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/Pods_QuizEnglishWords.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-QuizEnglishWords.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Realm-Swift.h",
+          'external-contents': "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/Realm-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Intermediates/Pods.build/Debug-iphonesimulator/Realm.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "RealmSwift-Swift.h",
+          'external-contents': "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Headers/RealmSwift-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "RealmSwift-umbrella.h",
+          'external-contents': "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Pods/Target Support Files/RealmSwift/RealmSwift-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Intermediates/Pods.build/Debug-iphonesimulator/RealmSwift.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "SwiftyJSON-Swift.h",
+          'external-contents': "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "SwiftyJSON-umbrella.h",
+          'external-contents': "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Pods/Target Support Files/SwiftyJSON/SwiftyJSON-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Intermediates/Pods.build/Debug-iphonesimulator/SwiftyJSON.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

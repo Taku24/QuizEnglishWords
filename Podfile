@@ -6,7 +6,8 @@ target 'QuizEnglishWords' do
   use_frameworks!
 
   pod 'FlatUIKit'
-  pod 'RealmSwift'
+  pod 'RealmSwift', :git => 'https://github.com/realm/realm-cocoa.git', :submodules => true
+  pod 'SwiftyJSON'
 
   post_install do |installer|
     installer.pods_project.targets.each do |target|
