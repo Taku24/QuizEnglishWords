@@ -7,13 +7,13 @@ provides-member:
 - ["C16QuizEnglishWords12CreateButton", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "UIColor"
-- "AssignmentPrecedence"
-- !private "CGFloat"
-- "CreateButton"
 - !private "UIControlState"
 - !private "UIFont"
+- "CreateButton"
+- "AssignmentPrecedence"
+- "UIColor"
 - "FUIButton"
+- !private "CGFloat"
 - "String"
 depends-member:
 - !private ["Ps16AbsoluteValuable", "init"]
