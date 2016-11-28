@@ -19,12 +19,7 @@ class MainViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         self.navigationItem.title = "単語帳"
-        
-        testBtm = createButton(button: testBtm,mainColor: UIColor.amethyst(), shadowColor: UIColor.wisteria(), titleText:"テストを開始する")
-        listBtm = createButton(button: listBtm,mainColor: UIColor.carrot(), shadowColor: UIColor.pumpkin(), titleText: "単語リスト")
-        missListBtm = createButton(button: missListBtm,mainColor: UIColor.emerland(), shadowColor: UIColor.nephritis(), titleText: "間違えリスト")
-        
-        listBtm.addTarget(self, action: #selector(MainViewController.moveWordListView), for: .touchUpInside)
+        setUpButton()
     }
 
     override func didReceiveMemoryWarning() {
@@ -32,20 +27,22 @@ class MainViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    func createButton(button: FUIButton ,mainColor: UIColor,shadowColor: UIColor, titleText:String) -> FUIButton{
-        button.buttonColor = mainColor
-        button.shadowColor = shadowColor
-        button.shadowHeight = 3.0
-        button.cornerRadius = 6.0
-        button.titleLabel?.font = UIFont.systemFont(ofSize: CGFloat(20))
-        button.setTitle(titleText, for: UIControlState.normal)
-        button.setTitleColor(UIColor.clouds(), for: UIControlState.normal)
-        button.setTitleColor(UIColor.clouds(), for: UIControlState.highlighted)
-        return button
-    }
+    
+}
 
+//MARK: PrivateMethod
+extension MainViewController {
+    
+    func setUpButton(){
+        testBtm = CreateButton.create(button: testBtm,mainColor: UIColor.amethyst(), shadowColor: UIColor.wisteria(), titleText:"テストを開始する")
+        listBtm = CreateButton.create(button: listBtm,mainColor: UIColor.carrot(), shadowColor: UIColor.pumpkin(), titleText: "単語リスト")
+        missListBtm = CreateButton.create(button: missListBtm,mainColor: UIColor.emerland(), shadowColor: UIColor.nephritis(), titleText: "間違えリスト")
+        
+        listBtm.addTarget(self, action: #selector(MainViewController.moveWordListView), for: .touchUpInside)
+    }
+    
     func moveWordListView(){
-        let listVC = WordList()
+        let listVC = WordListViewController()
         self.navigationController?.pushViewController(listVC, animated: true)
     }
     

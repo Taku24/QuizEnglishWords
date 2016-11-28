@@ -1,0 +1,252 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "WordListView"
+provides-nominal:
+- "C16QuizEnglishWords12WordListView"
+provides-member:
+- ["C16QuizEnglishWords12WordListView", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "NSCoder"
+- "CGRect"
+- "WordListView"
+- !private "contentView"
+- "UIView"
+- !private "|"
+- !private "AssignmentPrecedence"
+- !private "Bundle"
+- !private "StringLiteralType"
+depends-member:
+- !private ["Ps9AnyObject", "Bundle"]
+- !private ["Ps9AnyObject", "addSubview"]
+- ["Ps9AnyObject", "commonInit"]
+- !private ["Ps9AnyObject", "contentView"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "mainBundle"]
+- ["Ps9AnyObject", ""]
+- !private ["CSo6Bundle", "deinit"]
+- !private ["CSo6Bundle", "mainBundle"]
+- !private ["PSo15CALayerDelegate", "Bundle"]
+- !private ["PSo15CALayerDelegate", "addSubview"]
+- ["PSo15CALayerDelegate", "commonInit"]
+- !private ["PSo15CALayerDelegate", "contentView"]
+- ["PSo15CALayerDelegate", "init"]
+- ["PSo15CALayerDelegate", ""]
+- ["VSC6CGRect", "deinit"]
+- !private ["Ps7CVarArg", "Bundle"]
+- !private ["Ps7CVarArg", "addSubview"]
+- ["Ps7CVarArg", "commonInit"]
+- !private ["Ps7CVarArg", "contentView"]
+- ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "mainBundle"]
+- ["Ps7CVarArg", ""]
+- !private ["Ps28CustomDebugStringConvertible", "Bundle"]
+- !private ["Ps28CustomDebugStringConvertible", "addSubview"]
+- ["Ps28CustomDebugStringConvertible", "commonInit"]
+- !private ["Ps28CustomDebugStringConvertible", "contentView"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "mainBundle"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps23CustomStringConvertible", "Bundle"]
+- !private ["Ps23CustomStringConvertible", "addSubview"]
+- ["Ps23CustomStringConvertible", "commonInit"]
+- !private ["Ps23CustomStringConvertible", "contentView"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "mainBundle"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "Bundle"]
+- !private ["Ps9Equatable", "addSubview"]
+- ["Ps9Equatable", "commonInit"]
+- !private ["Ps9Equatable", "contentView"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "mainBundle"]
+- ["Ps9Equatable", ""]
+- !private ["Ps8Hashable", "Bundle"]
+- !private ["Ps8Hashable", "addSubview"]
+- ["Ps8Hashable", "commonInit"]
+- !private ["Ps8Hashable", "contentView"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "mainBundle"]
+- ["Ps8Hashable", ""]
+- ["CSo7NSCoder", "deinit"]
+- !private ["PSo8NSCoding", "Bundle"]
+- !private ["PSo8NSCoding", "addSubview"]
+- ["PSo8NSCoding", "commonInit"]
+- !private ["PSo8NSCoding", "contentView"]
+- ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", ""]
+- !private ["CSo8NSObject", "Bundle"]
+- ["CSo8NSObject", "CGRect"]
+- ["CSo8NSObject", "NSCoder"]
+- !private ["CSo8NSObject", "addSubview"]
+- ["CSo8NSObject", "commonInit"]
+- !private ["CSo8NSObject", "contentView"]
+- ["CSo8NSObject", "deinit"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "mainBundle"]
+- !private ["PSo16NSObjectProtocol", "Bundle"]
+- !private ["PSo16NSObjectProtocol", "addSubview"]
+- ["PSo16NSObjectProtocol", "commonInit"]
+- !private ["PSo16NSObjectProtocol", "contentView"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "mainBundle"]
+- ["PSo16NSObjectProtocol", ""]
+- ["Sq", "deinit"]
+- !private ["PSo29UIAccessibilityIdentification", "Bundle"]
+- !private ["PSo29UIAccessibilityIdentification", "addSubview"]
+- ["PSo29UIAccessibilityIdentification", "commonInit"]
+- !private ["PSo29UIAccessibilityIdentification", "contentView"]
+- ["PSo29UIAccessibilityIdentification", "init"]
+- ["PSo29UIAccessibilityIdentification", ""]
+- !private ["PSo12UIAppearance", "Bundle"]
+- !private ["PSo12UIAppearance", "addSubview"]
+- ["PSo12UIAppearance", "commonInit"]
+- !private ["PSo12UIAppearance", "contentView"]
+- ["PSo12UIAppearance", "init"]
+- ["PSo12UIAppearance", ""]
+- !private ["PSo21UIAppearanceContainer", "Bundle"]
+- !private ["PSo21UIAppearanceContainer", "addSubview"]
+- ["PSo21UIAppearanceContainer", "commonInit"]
+- !private ["PSo21UIAppearanceContainer", "contentView"]
+- ["PSo21UIAppearanceContainer", "init"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["PSo17UICoordinateSpace", "Bundle"]
+- !private ["PSo17UICoordinateSpace", "addSubview"]
+- ["PSo17UICoordinateSpace", "commonInit"]
+- !private ["PSo17UICoordinateSpace", "contentView"]
+- ["PSo17UICoordinateSpace", "init"]
+- ["PSo17UICoordinateSpace", ""]
+- !private ["PSo13UIDynamicItem", "Bundle"]
+- !private ["PSo13UIDynamicItem", "addSubview"]
+- ["PSo13UIDynamicItem", "commonInit"]
+- !private ["PSo13UIDynamicItem", "contentView"]
+- ["PSo13UIDynamicItem", "init"]
+- ["PSo13UIDynamicItem", ""]
+- !private ["PSo18UIFocusEnvironment", "Bundle"]
+- !private ["PSo18UIFocusEnvironment", "addSubview"]
+- ["PSo18UIFocusEnvironment", "commonInit"]
+- !private ["PSo18UIFocusEnvironment", "contentView"]
+- ["PSo18UIFocusEnvironment", "init"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["PSo11UIFocusItem", "Bundle"]
+- !private ["PSo11UIFocusItem", "addSubview"]
+- ["PSo11UIFocusItem", "commonInit"]
+- !private ["PSo11UIFocusItem", "contentView"]
+- ["PSo11UIFocusItem", "init"]
+- ["PSo11UIFocusItem", ""]
+- !private ["CSo11UIResponder", "Bundle"]
+- ["CSo11UIResponder", "CGRect"]
+- ["CSo11UIResponder", "NSCoder"]
+- !private ["CSo11UIResponder", "addSubview"]
+- ["CSo11UIResponder", "commonInit"]
+- !private ["CSo11UIResponder", "contentView"]
+- ["CSo11UIResponder", "deinit"]
+- ["CSo11UIResponder", "init"]
+- !private ["PSo30UIResponderStandardEditActions", "Bundle"]
+- !private ["PSo30UIResponderStandardEditActions", "addSubview"]
+- ["PSo30UIResponderStandardEditActions", "commonInit"]
+- !private ["PSo30UIResponderStandardEditActions", "contentView"]
+- ["PSo30UIResponderStandardEditActions", "init"]
+- ["PSo30UIResponderStandardEditActions", ""]
+- !private ["PSo18UITraitEnvironment", "Bundle"]
+- !private ["PSo18UITraitEnvironment", "addSubview"]
+- ["PSo18UITraitEnvironment", "commonInit"]
+- !private ["PSo18UITraitEnvironment", "contentView"]
+- ["PSo18UITraitEnvironment", "init"]
+- ["PSo18UITraitEnvironment", ""]
+- !private ["CSo6UIView", "Bundle"]
+- ["CSo6UIView", "CGRect"]
+- ["CSo6UIView", "NSCoder"]
+- !private ["CSo6UIView", "addSubview"]
+- ["CSo6UIView", "commonInit"]
+- !private ["CSo6UIView", "contentView"]
+- ["CSo6UIView", "deinit"]
+- ["CSo6UIView", "init"]
+- ["CSo6UIView", ""]
+- !private ["C16QuizEnglishWords12WordListView", "Bundle"]
+- ["C16QuizEnglishWords12WordListView", "CGRect"]
+- ["C16QuizEnglishWords12WordListView", "NSCoder"]
+- !private ["C16QuizEnglishWords12WordListView", "addSubview"]
+- !private ["C16QuizEnglishWords12WordListView", "commonInit"]
+- !private ["C16QuizEnglishWords12WordListView", "contentView"]
+- ["C16QuizEnglishWords12WordListView", "deinit"]
+- ["C16QuizEnglishWords12WordListView", "init"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "Bundle"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "addSubview"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "commonInit"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "contentView"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "init"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", ""]
+- !private ["Ps9_Hashable", "Bundle"]
+- !private ["Ps9_Hashable", "addSubview"]
+- ["Ps9_Hashable", "commonInit"]
+- !private ["Ps9_Hashable", "contentView"]
+- ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "mainBundle"]
+- ["Ps9_Hashable", ""]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "CSo6Bundle"
+- "PSo15CALayerDelegate"
+- "VSC6CGRect"
+- "Ps7CVarArg"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps8Hashable"
+- "CSo7NSCoder"
+- "PSo8NSCoding"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "Sq"
+- "PSo29UIAccessibilityIdentification"
+- "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "PSo17UICoordinateSpace"
+- "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- "PSo11UIFocusItem"
+- "CSo11UIResponder"
+- "PSo30UIResponderStandardEditActions"
+- "PSo18UITraitEnvironment"
+- "CSo6UIView"
+- "C16QuizEnglishWords12WordListView"
+- "Ps37_DefaultCustomPlaygroundQuickLookable"
+- "Ps9_Hashable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/QuizEnglishWords/QuizEnglishWords-Bridging-Header.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/FlatUIKit/FlatUIKit.framework/Headers/UIPopoverController+FlatUI.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/FlatUIKit/FlatUIKit.framework/Headers/NSString+Icons.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/FlatUIKit/FlatUIKit.framework/Headers/FUIPopoverBackgroundView.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/FlatUIKit/FlatUIKit.framework/Headers/UIToolbar+FlatUI.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/FlatUIKit/FlatUIKit.framework/Headers/UITableViewCell+FlatUI.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/FlatUIKit/FlatUIKit.framework/Headers/UITabBar+FlatUI.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/FlatUIKit/FlatUIKit.framework/Headers/UISlider+FlatUI.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/FlatUIKit/FlatUIKit.framework/Headers/UIStepper+FlatUI.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/FlatUIKit/FlatUIKit.framework/Headers/UIProgressView+FlatUI.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/FlatUIKit/FlatUIKit.framework/Headers/UINavigationBar+FlatUI.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/FlatUIKit/FlatUIKit.framework/Headers/UIImage+FlatUI.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/FlatUIKit/FlatUIKit.framework/Headers/UIFont+FlatUI.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/FlatUIKit/FlatUIKit.framework/Headers/UIColor+FlatUI.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/FlatUIKit/FlatUIKit.framework/Headers/UIBarButtonItem+FlatUI.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/FlatUIKit/FlatUIKit.framework/Headers/FUISwitch.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/FlatUIKit/FlatUIKit.framework/Headers/FUISegmentedControl.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/FlatUIKit/FlatUIKit.framework/Headers/FUICellBackgroundView.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/FlatUIKit/FlatUIKit.framework/Headers/FUIButton.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/FlatUIKit/FlatUIKit.framework/Headers/FUITextField.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/FlatUIKit/FlatUIKit.framework/Headers/FUIAlertView.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/FlatUIKit/FlatUIKit.framework/Headers/FlatUIKit.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/FlatUIKit/FlatUIKit.framework/Headers/FlatUIKit-umbrella.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/FlatUIKit/FlatUIKit.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+interface-hash: "6b660d1784064dca4ce956056ab99f43"

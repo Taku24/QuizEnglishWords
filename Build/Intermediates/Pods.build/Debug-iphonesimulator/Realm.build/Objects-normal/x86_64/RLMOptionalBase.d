@@ -1,0 +1,43 @@
+dependencies: \
+  /Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Pods/Realm/Realm/RLMOptionalBase.mm \
+  /Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Pods/Target\ Support\ Files/Realm/Realm-prefix.pch \
+  /Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Pods/Realm/include/RLMAccessor.h \
+  /Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Pods/Realm/include/RLMOptionalBase.h \
+  /Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Pods/Realm/include/RLMConstants.h \
+  /Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Pods/Realm/include/RLMObject_Private.h \
+  /Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Pods/Realm/include/RLMObjectBase_Dynamic.h \
+  /Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Pods/Realm/include/RLMObject.h \
+  /Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Pods/Realm/include/RLMObjectBase.h \
+  /Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Pods/Realm/include/RLMObjectStore.h \
+  /Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Pods/Realm/include/RLMProperty_Private.h \
+  /Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Pods/Realm/include/RLMProperty.h \
+  /Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Pods/Realm/include/RLMUtil.hpp \
+  /Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Pods/Realm/include/core/realm/array.hpp \
+  /Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Pods/Realm/include/core/realm/util/meta.hpp \
+  /Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Pods/Realm/include/core/realm/util/assert.hpp \
+  /Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Pods/Realm/include/core/realm/util/features.h \
+  /Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Pods/Realm/include/core/realm/util/config.h \
+  /Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Pods/Realm/include/core/realm/util/terminate.hpp \
+  /Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Pods/Realm/include/core/realm/util/to_string.hpp \
+  /Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Pods/Realm/include/core/realm/version.hpp \
+  /Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Pods/Realm/include/core/realm/util/file_mapper.hpp \
+  /Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Pods/Realm/include/core/realm/util/file.hpp \
+  /Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Pods/Realm/include/core/realm/util/safe_int_ops.hpp \
+  /Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Pods/Realm/include/core/realm/util/type_traits.hpp \
+  /Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Pods/Realm/include/core/realm/util/type_list.hpp \
+  /Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Pods/Realm/include/core/realm/util/thread.hpp \
+  /Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Pods/Realm/include/core/realm/util/encrypted_file_mapping.hpp \
+  /Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Pods/Realm/include/core/realm/utilities.hpp \
+  /Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Pods/Realm/include/core/realm/alloc.hpp \
+  /Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Pods/Realm/include/core/realm/string_data.hpp \
+  /Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Pods/Realm/include/core/realm/util/optional.hpp \
+  /Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Pods/Realm/include/core/realm/null.hpp \
+  /Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Pods/Realm/include/core/realm/exceptions.hpp \
+  /Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Pods/Realm/include/core/realm/owned_data.hpp \
+  /Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Pods/Realm/include/core/realm/query_conditions.hpp \
+  /Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Pods/Realm/include/core/realm/unicode.hpp \
+  /Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Pods/Realm/include/core/realm/binary_data.hpp \
+  /Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Pods/Realm/include/core/realm/column_fwd.hpp \
+  /Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Pods/Realm/include/core/realm/array_direct.hpp \
+  /Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Pods/Realm/include/core/realm/realm_nmmintrin.h \
+  /Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Pods/Realm/include/core/realm/timestamp.hpp
