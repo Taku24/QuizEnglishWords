@@ -6,22 +6,22 @@ provides-nominal:
 provides-member:
 - ["C16QuizEnglishWords11AppDelegate", ""]
 provides-dynamic-lookup:
-- "application"
-- "applicationDidEnterBackground"
-- "applicationWillTerminate"
-- "applicationWillResignActive"
-- "applicationDidBecomeActive"
-- "window"
 - "applicationWillEnterForeground"
+- "window"
+- "applicationWillTerminate"
+- "applicationDidBecomeActive"
+- "applicationWillResignActive"
+- "applicationDidEnterBackground"
+- "application"
 depends-top-level:
-- "UIApplication"
-- "UIApplicationLaunchOptionsKey"
-- "UIResponder"
 - "UIWindow"
-- "AppDelegate"
-- "UIApplicationDelegate"
-- !private "BooleanLiteralType"
 - "Bool"
+- "UIApplicationDelegate"
+- "UIApplicationLaunchOptionsKey"
+- "AppDelegate"
+- !private "BooleanLiteralType"
+- "UIResponder"
+- "UIApplication"
 depends-member:
 - ["Ps9AnyObject", "application"]
 - ["Ps9AnyObject", "applicationDidBecomeActive"]
