@@ -16,7 +16,14 @@
 		31B3B9621DBDDA7D009082B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31B3B9611DBDDA7D009082B6 /* Assets.xcassets */; };
 		31B3B9651DBDDA7D009082B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31B3B9631DBDDA7D009082B6 /* LaunchScreen.storyboard */; };
 		596DAEDDFDE6F5D0BF3BA569 /* Pods_QuizEnglishWords.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BB3F398E01FB2B82F819797 /* Pods_QuizEnglishWords.framework */; };
+		CF36E3AC1DEC03050035EC58 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF36E3AB1DEC03050035EC58 /* SwiftyJSON.framework */; };
+		CF36E3AE1DEC03090035EC58 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF36E3AD1DEC03090035EC58 /* Realm.framework */; };
+		CF36E3B01DEC030C0035EC58 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF36E3AF1DEC030C0035EC58 /* RealmSwift.framework */; };
 		CFCE56641DD04F3F0085C791 /* WordListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFCE56631DD04F3F0085C791 /* WordListViewController.swift */; };
+		CFDA13C81DF543B4006E814E /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = CFDA13C61DF543B4006E814E /* 2.png */; };
+		CFDA13C91DF543B4006E814E /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = CFDA13C71DF543B4006E814E /* 1.png */; };
+		CFEE5E3A1DF53B6900279EF2 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEE5E381DF53B6900279EF2 /* CustomCell.swift */; };
+		CFEE5E3B1DF53B6900279EF2 /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CFEE5E391DF53B6900279EF2 /* CustomCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,8 +40,15 @@
 		4099B7A04081D1004EB14E58 /* Pods-QuizEnglishWords.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuizEnglishWords.release.xcconfig"; path = "Pods/Target Support Files/Pods-QuizEnglishWords/Pods-QuizEnglishWords.release.xcconfig"; sourceTree = "<group>"; };
 		7BB3F398E01FB2B82F819797 /* Pods_QuizEnglishWords.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuizEnglishWords.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2D41E7C07394011AA82812D /* Pods-QuizEnglishWords.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuizEnglishWords.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QuizEnglishWords/Pods-QuizEnglishWords.debug.xcconfig"; sourceTree = "<group>"; };
+		CF36E3AB1DEC03050035EC58 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = "../../Library/Developer/Xcode/DerivedData/QuizEnglishWords-eyfutgdbuttlkbborgeyhzfoepva/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework"; sourceTree = "<group>"; };
+		CF36E3AD1DEC03090035EC58 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = "../../Library/Developer/Xcode/DerivedData/QuizEnglishWords-eyfutgdbuttlkbborgeyhzfoepva/Build/Products/Debug-iphonesimulator/Realm/Realm.framework"; sourceTree = "<group>"; };
+		CF36E3AF1DEC030C0035EC58 /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = "../../Library/Developer/Xcode/DerivedData/QuizEnglishWords-eyfutgdbuttlkbborgeyhzfoepva/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework"; sourceTree = "<group>"; };
 		CF9D93831DBDE6BF00EDB424 /* QuizEnglishWords-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QuizEnglishWords-Bridging-Header.h"; sourceTree = "<group>"; };
 		CFCE56631DD04F3F0085C791 /* WordListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordListViewController.swift; sourceTree = "<group>"; };
+		CFDA13C61DF543B4006E814E /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		CFDA13C71DF543B4006E814E /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		CFEE5E381DF53B6900279EF2 /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		CFEE5E391DF53B6900279EF2 /* CustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +56,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF36E3B01DEC030C0035EC58 /* RealmSwift.framework in Frameworks */,
+				CF36E3AE1DEC03090035EC58 /* Realm.framework in Frameworks */,
+				CF36E3AC1DEC03050035EC58 /* SwiftyJSON.framework in Frameworks */,
 				596DAEDDFDE6F5D0BF3BA569 /* Pods_QuizEnglishWords.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -96,6 +113,8 @@
 		31B3B9591DBDDA7D009082B6 /* QuizEnglishWords */ = {
 			isa = PBXGroup;
 			children = (
+				CFDA13C51DF543A0006E814E /* Image */,
+				CFEE5E351DF53A7400279EF2 /* View */,
 				319CF51E1DE1C8F400C615C2 /* Model */,
 				319CF5201DE1C90000C615C2 /* Controller */,
 				319CF5211DE1C90900C615C2 /* Global */,
@@ -121,9 +140,30 @@
 		62B658DC5D56FEC6FC798971 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CF36E3AF1DEC030C0035EC58 /* RealmSwift.framework */,
+				CF36E3AD1DEC03090035EC58 /* Realm.framework */,
+				CF36E3AB1DEC03050035EC58 /* SwiftyJSON.framework */,
 				7BB3F398E01FB2B82F819797 /* Pods_QuizEnglishWords.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CFDA13C51DF543A0006E814E /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				CFDA13C61DF543B4006E814E /* 2.png */,
+				CFDA13C71DF543B4006E814E /* 1.png */,
+			);
+			name = Image;
+			sourceTree = "<group>";
+		};
+		CFEE5E351DF53A7400279EF2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CFEE5E381DF53B6900279EF2 /* CustomCell.swift */,
+				CFEE5E391DF53B6900279EF2 /* CustomCell.xib */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -188,10 +228,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFDA13C81DF543B4006E814E /* 2.png in Resources */,
+				CFEE5E3B1DF53B6900279EF2 /* CustomCell.xib in Resources */,
 				31B3B9651DBDDA7D009082B6 /* LaunchScreen.storyboard in Resources */,
 				31B3B9621DBDDA7D009082B6 /* Assets.xcassets in Resources */,
 				319CF52A1DE1CB4400C615C2 /* EnglishWordsLsit.json in Resources */,
 				31B3B9601DBDDA7D009082B6 /* Main.storyboard in Resources */,
+				CFDA13C91DF543B4006E814E /* 1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,7 +253,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		90F2CEC3C1E2DEC3939C5E48 /* [CP] Copy Pods Resources */ = {
@@ -254,6 +297,7 @@
 				319CF5281DE1CA9D00C615C2 /* CreateButton.swift in Sources */,
 				319CF52C1DE1CB6600C615C2 /* Word.swift in Sources */,
 				CFCE56641DD04F3F0085C791 /* WordListViewController.swift in Sources */,
+				CFEE5E3A1DF53B6900279EF2 /* CustomCell.swift in Sources */,
 				31B3B95B1DBDDA7D009082B6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
