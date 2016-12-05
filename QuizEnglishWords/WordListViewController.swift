@@ -20,6 +20,7 @@ class WordListViewController: UIViewController {
         wordListView.frame = CGRect(x:0, y:0, width:UIScreen.main.bounds.size.width,height:UIScreen.main.bounds.size.height)
         wordListView.delegate = self
         wordListView.dataSource = self
+        wordListView.register(UINib(nibName:"CustomCell",bundle:nil), forCellReuseIdentifier: "Cell")
         self.view.addSubview(wordListView)
         createListData()
     }
@@ -59,13 +60,23 @@ extension WordListViewController: UITableViewDelegate {
 //MARK: UITableViewDataSource
 extension WordListViewController: UITableViewDataSource {
     
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 50;
+    }
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return englishWords.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell:UITableViewCell = UITableViewCell(style: UITableViewCellStyle.subtitle, reuseIdentifier: "Cell")
-        cell.textLabel?.text = englishWords[indexPath.row].question
+        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell") as! CustomCell
+        cell.wordtitle.text = englishWords[indexPath.row].question
+        if(indexPath.row % 2 == 0){
+            cell.imageview.image = UIImage(named:"1.png")
+        }
+        else {
+            cell.imageview.image = UIImage(named:"2.png")
+        }
         return cell
     }
     
