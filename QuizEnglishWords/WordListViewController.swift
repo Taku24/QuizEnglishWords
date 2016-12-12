@@ -22,29 +22,13 @@ class WordListViewController: UIViewController {
         wordListView.dataSource = self
         wordListView.register(UINib(nibName:"CustomCell",bundle:nil), forCellReuseIdentifier: "Cell")
         self.view.addSubview(wordListView)
-        createListData()
+        englishWords = LoadWordsFromJSON.loadAll()
     }
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
 
-}
-
-//MARK: AddMyMythod
-extension WordListViewController {
-    
-    func createListData(){
-        let path :String = Bundle.main.path(forResource: "EnglishWordsLsit",ofType:"json")!
-        let fileHandle : FileHandle = FileHandle(forReadingAtPath: path)!
-        let data : NSData = fileHandle.readDataToEndOfFile() as NSData
-        let json = JSON(data:data as Data)
-        let wordsData = json["list"]
-        for i in 0..<json["list"].count{
-            let word = Word(question: wordsData[i]["question"].stringValue, answer: wordsData[i]["answer"].stringValue);
-            englishWords.append(word)
-        }
-    }
 }
 
 //MARK: UITableViewDelegate

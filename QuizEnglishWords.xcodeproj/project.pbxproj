@@ -24,6 +24,8 @@
 		CFDA13C91DF543B4006E814E /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = CFDA13C71DF543B4006E814E /* 1.png */; };
 		CFEE5E3A1DF53B6900279EF2 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEE5E381DF53B6900279EF2 /* CustomCell.swift */; };
 		CFEE5E3B1DF53B6900279EF2 /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CFEE5E391DF53B6900279EF2 /* CustomCell.xib */; };
+		CFF9FDE11DFE753800008F60 /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF9FDE01DFE753800008F60 /* QuestionViewController.swift */; };
+		CFF9FDE31DFE787700008F60 /* LoadWordsFromJSON .swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF9FDE21DFE787700008F60 /* LoadWordsFromJSON .swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +51,8 @@
 		CFDA13C71DF543B4006E814E /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
 		CFEE5E381DF53B6900279EF2 /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
 		CFEE5E391DF53B6900279EF2 /* CustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCell.xib; sourceTree = "<group>"; };
+		CFF9FDE01DFE753800008F60 /* QuestionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
+		CFF9FDE21DFE787700008F60 /* LoadWordsFromJSON .swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LoadWordsFromJSON .swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,7 @@
 			children = (
 				31B3B95C1DBDDA7D009082B6 /* MainViewController.swift */,
 				CFCE56631DD04F3F0085C791 /* WordListViewController.swift */,
+				CFF9FDE01DFE753800008F60 /* QuestionViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -88,6 +93,7 @@
 			children = (
 				31B3B95A1DBDDA7D009082B6 /* AppDelegate.swift */,
 				319CF5271DE1CA9D00C615C2 /* CreateButton.swift */,
+				CFF9FDE21DFE787700008F60 /* LoadWordsFromJSON .swift */,
 			);
 			name = Global;
 			sourceTree = "<group>";
@@ -295,7 +301,9 @@
 			files = (
 				31B3B95D1DBDDA7D009082B6 /* MainViewController.swift in Sources */,
 				319CF5281DE1CA9D00C615C2 /* CreateButton.swift in Sources */,
+				CFF9FDE11DFE753800008F60 /* QuestionViewController.swift in Sources */,
 				319CF52C1DE1CB6600C615C2 /* Word.swift in Sources */,
+				CFF9FDE31DFE787700008F60 /* LoadWordsFromJSON .swift in Sources */,
 				CFCE56641DD04F3F0085C791 /* WordListViewController.swift in Sources */,
 				CFEE5E3A1DF53B6900279EF2 /* CustomCell.swift in Sources */,
 				31B3B95B1DBDDA7D009082B6 /* AppDelegate.swift in Sources */,
