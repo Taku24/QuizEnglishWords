@@ -7,20 +7,31 @@
 //
 
 import UIKit
+import FlatUIKit
 
 class QuestionViewController: UIViewController{
     
+    @IBOutlet weak var questionCountLabel: UILabel!
     @IBOutlet weak var questionLabel: UILabel!
     @IBOutlet weak var selectView: UITableView!
+    @IBOutlet weak var judgeLabel: UILabel!
+    @IBOutlet weak var nextButton: FUIButton!
     
-    var list: [String] = ["Apple", "Banana", "Orange", "Peach"]
+    var questionList = [Word]()
+    var json = LoadWordsFromJSON()
+    var isCorrect:Int!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
         selectView.delegate = self
         selectView.dataSource = self
-
+        selectView.isScrollEnabled = false
+        
+        nextButton = CreateFlatButton.create(button: nextButton, mainColor: UIColor.peterRiver(), shadowColor: UIColor.belizeHole(), titleText: "次へ")
+        nextButton.isHidden = true
+        
+        questionList = json.createQuestionList()
+        createQuestion()
     }
     
     override func didReceiveMemoryWarning() {
@@ -30,23 +41,12 @@ class QuestionViewController: UIViewController{
     
 }
 
-extension QuestionViewController: UITableViewDelegate {
+extension QuestionViewController {
     
-    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-
-    }
-}
-
-extension QuestionViewController: UITableViewDataSource {
-
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-       return list.count
+    fileprivate func createQuestion(){
+        isCorrect = Int(arc4random() % 4)
+        questionLabel.text = questionList[isCorrect].question
     }
     
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = UITableViewCell(style: UITableViewCellStyle.subtitle, reuseIdentifier: "Cell")
-        cell.textLabel?.text = list[indexPath.row]
-        return cell
-    }
-
 }
+

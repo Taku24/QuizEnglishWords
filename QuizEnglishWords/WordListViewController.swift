@@ -14,6 +14,7 @@ class WordListViewController: UIViewController {
     var englishWords = [Word]()
     
     let wordListView = UITableView()
+    let loadJSON = LoadWordsFromJSON()
     
     override func viewDidLoad(){
         super.viewDidLoad()
@@ -22,7 +23,7 @@ class WordListViewController: UIViewController {
         wordListView.dataSource = self
         wordListView.register(UINib(nibName:"CustomCell",bundle:nil), forCellReuseIdentifier: "Cell")
         self.view.addSubview(wordListView)
-        englishWords = LoadWordsFromJSON.loadAll()
+        englishWords = loadJSON.loadAll()
     }
     
     override func didReceiveMemoryWarning() {
@@ -35,7 +36,6 @@ class WordListViewController: UIViewController {
 extension WordListViewController: UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        print("Answer:\(englishWords[indexPath.row].answer)")
         tableView.deselectRow(at: indexPath, animated: true)
     }
     
@@ -45,7 +45,7 @@ extension WordListViewController: UITableViewDelegate {
 extension WordListViewController: UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 50;
+        return 50
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {

@@ -117,6 +117,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if defined(__has_feature) && __has_feature(modules)
 @import UIKit;
 @import Foundation;
+@import CoreGraphics;
 #endif
 
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
@@ -136,9 +137,22 @@ SWIFT_CLASS("_TtC16QuizEnglishWords11AppDelegate")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class UIImageView;
+@class UILabel;
+@class NSCoder;
+
+SWIFT_CLASS("_TtC16QuizEnglishWords10CustomCell")
+@interface CustomCell : UITableViewCell
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified imageview;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified wordtitle;
+- (void)awakeFromNib;
+- (void)setSelected:(BOOL)selected animated:(BOOL)animated;
+- (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * _Nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
 @class FUIButton;
 @class NSBundle;
-@class NSCoder;
 
 SWIFT_CLASS("_TtC16QuizEnglishWords18MainViewController")
 @interface MainViewController : UIViewController
@@ -159,9 +173,38 @@ SWIFT_CLASS("_TtC16QuizEnglishWords18MainViewController")
 
 @class UITableView;
 
+SWIFT_CLASS("_TtC16QuizEnglishWords22QuestionViewController")
+@interface QuestionViewController : UIViewController
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified questionCountLabel;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified questionLabel;
+@property (nonatomic, weak) IBOutlet UITableView * _Null_unspecified selectView;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified judgeLabel;
+@property (nonatomic, weak) IBOutlet FUIButton * _Null_unspecified nextButton;
+- (void)viewDidLoad;
+- (void)didReceiveMemoryWarning;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+@interface QuestionViewController (SWIFT_EXTENSION(QuizEnglishWords))
+@end
+
+
+@interface QuestionViewController (SWIFT_EXTENSION(QuizEnglishWords)) <UITableViewDelegate, UIScrollViewDelegate>
+- (void)tableView:(UITableView * _Nonnull)tableView didSelectRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
+@end
+
+
+@interface QuestionViewController (SWIFT_EXTENSION(QuizEnglishWords)) <UITableViewDataSource>
+- (CGFloat)tableView:(UITableView * _Nonnull)tableView heightForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
+- (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section;
+- (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
+@end
+
+
 SWIFT_CLASS("_TtC16QuizEnglishWords22WordListViewController")
 @interface WordListViewController : UIViewController
-@property (nonatomic, copy) NSArray<NSString *> * _Nonnull array;
 @property (nonatomic, readonly, strong) UITableView * _Nonnull wordListView;
 - (void)viewDidLoad;
 - (void)didReceiveMemoryWarning;
@@ -174,9 +217,9 @@ SWIFT_CLASS("_TtC16QuizEnglishWords22WordListViewController")
 - (void)tableView:(UITableView * _Nonnull)tableView didSelectRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
 @end
 
-@class UITableViewCell;
 
 @interface WordListViewController (SWIFT_EXTENSION(QuizEnglishWords)) <UITableViewDataSource>
+- (CGFloat)tableView:(UITableView * _Nonnull)tableView heightForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
 - (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section;
 - (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
 @end
