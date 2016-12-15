@@ -180,6 +180,7 @@ SWIFT_CLASS("_TtC16QuizEnglishWords22QuestionViewController")
 @property (nonatomic, weak) IBOutlet UITableView * _Null_unspecified selectView;
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified judgeLabel;
 @property (nonatomic, weak) IBOutlet FUIButton * _Null_unspecified nextButton;
+@property (nonatomic) NSInteger questionCount;
 - (void)viewDidLoad;
 - (void)didReceiveMemoryWarning;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
@@ -187,12 +188,13 @@ SWIFT_CLASS("_TtC16QuizEnglishWords22QuestionViewController")
 @end
 
 
-@interface QuestionViewController (SWIFT_EXTENSION(QuizEnglishWords))
+@interface QuestionViewController (SWIFT_EXTENSION(QuizEnglishWords)) <UITableViewDelegate, UIScrollViewDelegate>
+- (void)tableView:(UITableView * _Nonnull)tableView didSelectRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
 @end
 
 
-@interface QuestionViewController (SWIFT_EXTENSION(QuizEnglishWords)) <UITableViewDelegate, UIScrollViewDelegate>
-- (void)tableView:(UITableView * _Nonnull)tableView didSelectRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
+@interface QuestionViewController (SWIFT_EXTENSION(QuizEnglishWords))
+- (void)nextQuestion;
 @end
 
 

@@ -63,6 +63,7 @@ class LoadWordsFromJSON {
                 break
             }
             else {
+                cnt = 0
                 randNumbers.removeAll()
             }
         }

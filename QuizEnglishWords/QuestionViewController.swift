@@ -20,6 +20,7 @@ class QuestionViewController: UIViewController{
     var questionList = [Word]()
     var json = LoadWordsFromJSON()
     var isCorrect:Int!
+    var questionCount:Int = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -30,8 +31,9 @@ class QuestionViewController: UIViewController{
         nextButton = CreateFlatButton.create(button: nextButton, mainColor: UIColor.peterRiver(), shadowColor: UIColor.belizeHole(), titleText: "次へ")
         nextButton.isHidden = true
         
-        questionList = json.createQuestionList()
         createQuestion()
+        
+        nextButton.addTarget(self, action: #selector(QuestionViewController.nextQuestion), for: .touchUpInside)
     }
     
     override func didReceiveMemoryWarning() {
@@ -44,8 +46,27 @@ class QuestionViewController: UIViewController{
 extension QuestionViewController {
     
     fileprivate func createQuestion(){
+        questionCount += 1
         isCorrect = Int(arc4random() % 4)
+        changeTextLabel(questionCount: questionCount)
+        selectView.allowsSelection = true
+        selectView.reloadData()
+    }
+    
+    private func changeTextLabel(questionCount: Int){
+        questionList = json.createQuestionList()
+        questionCountLabel.text = String(questionCount)
         questionLabel.text = questionList[isCorrect].question
+        judgeLabel.text = ""
+    }
+    
+    func nextQuestion(){
+        if(questionCount == 10){
+            print("終了")
+        }
+        else {
+            createQuestion()
+        }
     }
     
 }

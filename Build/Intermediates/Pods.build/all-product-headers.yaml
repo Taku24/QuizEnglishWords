@@ -4,7 +4,7 @@
   'roots': [
     {
       'type': 'directory',
-      'name': "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/FlatUIKit/FlatUIKit.framework/Headers",
+      'name': "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphoneos/FlatUIKit/FlatUIKit.framework/Headers",
       'contents': [
         {
           'type': 'file',
@@ -44,7 +44,7 @@
         {
           'type': 'file',
           'name': "FlatUIKit-Swift.h",
-          'external-contents': "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/FlatUIKit/FlatUIKit.framework/Headers/FlatUIKit-Swift.h"
+          'external-contents': "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphoneos/FlatUIKit/FlatUIKit.framework/Headers/FlatUIKit-Swift.h"
         },
         {
           'type': 'file',
@@ -125,18 +125,18 @@
     },
     {
       'type': 'directory',
-      'name': "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/FlatUIKit/FlatUIKit.framework/Modules",
+      'name': "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphoneos/FlatUIKit/FlatUIKit.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Intermediates/Pods.build/Debug-iphonesimulator/FlatUIKit.build/module.modulemap"
+          'external-contents': "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Intermediates/Pods.build/Debug-iphoneos/FlatUIKit.build/module.modulemap"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/Pods_QuizEnglishWords.framework/Headers",
+      'name': "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphoneos/Pods_QuizEnglishWords.framework/Headers",
       'contents': [
         {
           'type': 'file',
@@ -146,51 +146,51 @@
         {
           'type': 'file',
           'name': "Pods_QuizEnglishWords-Swift.h",
-          'external-contents': "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/Pods_QuizEnglishWords.framework/Headers/Pods_QuizEnglishWords-Swift.h"
+          'external-contents': "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphoneos/Pods_QuizEnglishWords.framework/Headers/Pods_QuizEnglishWords-Swift.h"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/Pods_QuizEnglishWords.framework/Modules",
+      'name': "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphoneos/Pods_QuizEnglishWords.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-QuizEnglishWords.build/module.modulemap"
+          'external-contents': "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-QuizEnglishWords.build/module.modulemap"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers",
+      'name': "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers",
       'contents': [
         {
           'type': 'file',
           'name': "Realm-Swift.h",
-          'external-contents': "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/Realm-Swift.h"
+          'external-contents': "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/Realm-Swift.h"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Modules",
+      'name': "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphoneos/Realm/Realm.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Intermediates/Pods.build/Debug-iphonesimulator/Realm.build/module.modulemap"
+          'external-contents': "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Intermediates/Pods.build/Debug-iphoneos/Realm.build/module.modulemap"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Headers",
+      'name': "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphoneos/RealmSwift/RealmSwift.framework/Headers",
       'contents': [
         {
           'type': 'file',
           'name': "RealmSwift-Swift.h",
-          'external-contents': "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Headers/RealmSwift-Swift.h"
+          'external-contents': "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphoneos/RealmSwift/RealmSwift.framework/Headers/RealmSwift-Swift.h"
         },
         {
           'type': 'file',
@@ -201,23 +201,23 @@
     },
     {
       'type': 'directory',
-      'name': "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Modules",
+      'name': "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphoneos/RealmSwift/RealmSwift.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Intermediates/Pods.build/Debug-iphonesimulator/RealmSwift.build/module.modulemap"
+          'external-contents': "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Intermediates/Pods.build/Debug-iphoneos/RealmSwift.build/module.modulemap"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers",
+      'name': "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Headers",
       'contents': [
         {
           'type': 'file',
           'name': "SwiftyJSON-Swift.h",
-          'external-contents': "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
+          'external-contents': "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
         },
         {
           'type': 'file',
@@ -228,12 +228,12 @@
     },
     {
       'type': 'directory',
-      'name': "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules",
+      'name': "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Intermediates/Pods.build/Debug-iphonesimulator/SwiftyJSON.build/module.modulemap"
+          'external-contents': "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Intermediates/Pods.build/Debug-iphoneos/SwiftyJSON.build/module.modulemap"
         }
       ]
     }

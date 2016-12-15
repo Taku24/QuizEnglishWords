@@ -17,6 +17,7 @@ extension QuestionViewController: UITableViewDelegate {
         else {
             judgeLabel.text = "不正解"
         }
+        tableView.allowsSelection = false
         nextButton.isHidden = false
     }
     
