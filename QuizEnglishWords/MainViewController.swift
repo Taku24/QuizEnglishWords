@@ -34,13 +34,14 @@ class MainViewController: UIViewController {
 extension MainViewController {
     
     func setUpButton(){
-        testBtm = CreateButton.create(button: testBtm,mainColor: UIColor.amethyst(), shadowColor: UIColor.wisteria(), titleText:"テストを開始する")
-        listBtm = CreateButton.create(button: listBtm,mainColor: UIColor.carrot(), shadowColor: UIColor.pumpkin(), titleText: "単語リスト")
-        missListBtm = CreateButton.create(button: missListBtm,mainColor: UIColor.emerland(), shadowColor: UIColor.nephritis(), titleText: "間違えリスト")
+        testBtm = CreateFlatButton.create(button: testBtm,mainColor: UIColor.amethyst(), shadowColor: UIColor.wisteria(), titleText:"テストを開始する")
+        listBtm = CreateFlatButton.create(button: listBtm,mainColor: UIColor.carrot(), shadowColor: UIColor.pumpkin(), titleText: "単語リスト")
+        missListBtm = CreateFlatButton.create(button: missListBtm,mainColor: UIColor.emerland(), shadowColor: UIColor.nephritis(), titleText: "間違えリスト")
         
         listBtm.addTarget(self, action: #selector(MainViewController.moveWordListView), for: .touchUpInside)
     }
     
+    //push
     func moveWordListView(){
         let listVC = WordListViewController()
         self.navigationController?.pushViewController(listVC, animated: true)

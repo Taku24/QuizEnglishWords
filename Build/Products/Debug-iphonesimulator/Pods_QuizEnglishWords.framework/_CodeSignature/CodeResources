@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/Pods-QuizEnglishWords-umbrella.h</key>
 		<data>
-		+29rZxDWzVZhypIJUkMaOaCY4iw=
+		cW3c6VK7aYaJeVN9FxfeRGlNQJM=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -23,11 +23,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			+29rZxDWzVZhypIJUkMaOaCY4iw=
+			cW3c6VK7aYaJeVN9FxfeRGlNQJM=
 			</data>
 			<key>hash2</key>
 			<data>
-			f5fQBiB+ZVRxH7uu90lN86xvHAF+Sqov9tBvP9efdXg=
+			Y+Nvv984rPd4eHaLd13W8RBy70UsFtuL/BBoDZmyZJM=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
