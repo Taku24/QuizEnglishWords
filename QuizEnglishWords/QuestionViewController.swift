@@ -28,8 +28,7 @@ class QuestionViewController: UIViewController{
         selectView.dataSource = self
         selectView.isScrollEnabled = false
         
-        nextButton = CreateFlatButton.create(button: nextButton, mainColor: UIColor.peterRiver(), shadowColor: UIColor.belizeHole(), titleText: "次へ")
-        nextButton.isHidden = true
+        nextButton = CreateFlatButton.create(button: nextButton, mainColor: UIColor.peterRiver(), shadowColor: UIColor.belizeHole(), titleText: Construct.next)
         
         createQuestion()
         
@@ -49,6 +48,7 @@ extension QuestionViewController {
         questionCount += 1
         isCorrect = Int(arc4random() % 4)
         changeTextLabel(questionCount: questionCount)
+        nextButton.isHidden = true
         selectView.allowsSelection = true
         selectView.reloadData()
     }
