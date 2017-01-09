@@ -39,12 +39,18 @@ extension MainViewController {
         missListBtm = CreateFlatButton.create(button: missListBtm,mainColor: UIColor.emerland(), shadowColor: UIColor.nephritis(), titleText: Construct.wrongListTitle)
         
         listBtm.addTarget(self, action: #selector(MainViewController.moveWordListView), for: .touchUpInside)
+        missListBtm.addTarget(self, action: #selector(MainViewController.moveWrongListView), for: .touchUpInside)
     }
     
     //push
     func moveWordListView(){
         let listVC = WordListViewController()
         self.navigationController?.pushViewController(listVC, animated: true)
+    }
+    
+    func moveWrongListView(){
+        let missVC = MissListViewController()
+        self.navigationController?.pushViewController(missVC, animated: true)
     }
     
 }
