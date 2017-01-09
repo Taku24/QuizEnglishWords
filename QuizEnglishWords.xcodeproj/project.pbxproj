@@ -7,7 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		319CF5281DE1CA9D00C615C2 /* CreateButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319CF5271DE1CA9D00C615C2 /* CreateButton.swift */; };
+		311122581E02A13F003D7E56 /* QuestionViewController + DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311122571E02A13F003D7E56 /* QuestionViewController + DataSource.swift */; };
+		3111225A1E02A152003D7E56 /* QuestionViewController + Delegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311122591E02A152003D7E56 /* QuestionViewController + Delegate.swift */; };
+		318FC7F61E0370CD00FAF750 /* WordListViewController + DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318FC7F51E0370CD00FAF750 /* WordListViewController + DataSource.swift */; };
+		318FC7F81E0370E000FAF750 /* WordListViewController + Delegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318FC7F71E0370E000FAF750 /* WordListViewController + Delegate.swift */; };
+		318FC7FC1E03717500FAF750 /* Construct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318FC7FB1E03717500FAF750 /* Construct.swift */; };
+		318FC7FE1E03752500FAF750 /* Wrong.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318FC7FD1E03752500FAF750 /* Wrong.swift */; };
+		319CF5281DE1CA9D00C615C2 /* CreateFlatButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319CF5271DE1CA9D00C615C2 /* CreateFlatButton.swift */; };
 		319CF52A1DE1CB4400C615C2 /* EnglishWordsLsit.json in Resources */ = {isa = PBXBuildFile; fileRef = 319CF5291DE1CB4400C615C2 /* EnglishWordsLsit.json */; };
 		319CF52C1DE1CB6600C615C2 /* Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319CF52B1DE1CB6600C615C2 /* Word.swift */; };
 		31B3B95B1DBDDA7D009082B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B3B95A1DBDDA7D009082B6 /* AppDelegate.swift */; };
@@ -24,10 +30,18 @@
 		CFDA13C91DF543B4006E814E /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = CFDA13C71DF543B4006E814E /* 1.png */; };
 		CFEE5E3A1DF53B6900279EF2 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEE5E381DF53B6900279EF2 /* CustomCell.swift */; };
 		CFEE5E3B1DF53B6900279EF2 /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CFEE5E391DF53B6900279EF2 /* CustomCell.xib */; };
+		CFF9FDE11DFE753800008F60 /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF9FDE01DFE753800008F60 /* QuestionViewController.swift */; };
+		CFF9FDE31DFE787700008F60 /* LoadWordsFromJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF9FDE21DFE787700008F60 /* LoadWordsFromJSON.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		319CF5271DE1CA9D00C615C2 /* CreateButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateButton.swift; sourceTree = "<group>"; };
+		311122571E02A13F003D7E56 /* QuestionViewController + DataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "QuestionViewController + DataSource.swift"; sourceTree = "<group>"; };
+		311122591E02A152003D7E56 /* QuestionViewController + Delegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "QuestionViewController + Delegate.swift"; sourceTree = "<group>"; };
+		318FC7F51E0370CD00FAF750 /* WordListViewController + DataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "WordListViewController + DataSource.swift"; sourceTree = "<group>"; };
+		318FC7F71E0370E000FAF750 /* WordListViewController + Delegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "WordListViewController + Delegate.swift"; sourceTree = "<group>"; };
+		318FC7FB1E03717500FAF750 /* Construct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Construct.swift; sourceTree = "<group>"; };
+		318FC7FD1E03752500FAF750 /* Wrong.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Wrong.swift; sourceTree = "<group>"; };
+		319CF5271DE1CA9D00C615C2 /* CreateFlatButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateFlatButton.swift; sourceTree = "<group>"; };
 		319CF5291DE1CB4400C615C2 /* EnglishWordsLsit.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = EnglishWordsLsit.json; sourceTree = "<group>"; };
 		319CF52B1DE1CB6600C615C2 /* Word.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Word.swift; sourceTree = "<group>"; };
 		31B3B9571DBDDA7D009082B6 /* QuizEnglishWords.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuizEnglishWords.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,6 +63,8 @@
 		CFDA13C71DF543B4006E814E /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
 		CFEE5E381DF53B6900279EF2 /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
 		CFEE5E391DF53B6900279EF2 /* CustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCell.xib; sourceTree = "<group>"; };
+		CFF9FDE01DFE753800008F60 /* QuestionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
+		CFF9FDE21DFE787700008F60 /* LoadWordsFromJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadWordsFromJSON.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,9 +82,46 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		311122531E02A0D3003D7E56 /* QuestionViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CFF9FDE01DFE753800008F60 /* QuestionViewController.swift */,
+				311122571E02A13F003D7E56 /* QuestionViewController + DataSource.swift */,
+				311122591E02A152003D7E56 /* QuestionViewController + Delegate.swift */,
+			);
+			name = QuestionViewController;
+			sourceTree = "<group>";
+		};
+		311122541E02A0E6003D7E56 /* MainViewController */ = {
+			isa = PBXGroup;
+			children = (
+				31B3B95C1DBDDA7D009082B6 /* MainViewController.swift */,
+			);
+			name = MainViewController;
+			sourceTree = "<group>";
+		};
+		311122551E02A0FA003D7E56 /* WordListViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CFCE56631DD04F3F0085C791 /* WordListViewController.swift */,
+				318FC7F51E0370CD00FAF750 /* WordListViewController + DataSource.swift */,
+				318FC7F71E0370E000FAF750 /* WordListViewController + Delegate.swift */,
+			);
+			name = WordListViewController;
+			sourceTree = "<group>";
+		};
+		318FC7FF1E03763100FAF750 /* Realm */ = {
+			isa = PBXGroup;
+			children = (
+				318FC7FD1E03752500FAF750 /* Wrong.swift */,
+			);
+			name = Realm;
+			sourceTree = "<group>";
+		};
 		319CF51E1DE1C8F400C615C2 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				318FC7FF1E03763100FAF750 /* Realm */,
 				319CF52B1DE1CB6600C615C2 /* Word.swift */,
 			);
 			name = Model;
@@ -77,8 +130,9 @@
 		319CF5201DE1C90000C615C2 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				31B3B95C1DBDDA7D009082B6 /* MainViewController.swift */,
-				CFCE56631DD04F3F0085C791 /* WordListViewController.swift */,
+				311122541E02A0E6003D7E56 /* MainViewController */,
+				311122551E02A0FA003D7E56 /* WordListViewController */,
+				311122531E02A0D3003D7E56 /* QuestionViewController */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -87,7 +141,9 @@
 			isa = PBXGroup;
 			children = (
 				31B3B95A1DBDDA7D009082B6 /* AppDelegate.swift */,
-				319CF5271DE1CA9D00C615C2 /* CreateButton.swift */,
+				318FC7FB1E03717500FAF750 /* Construct.swift */,
+				319CF5271DE1CA9D00C615C2 /* CreateFlatButton.swift */,
+				CFF9FDE21DFE787700008F60 /* LoadWordsFromJSON.swift */,
 			);
 			name = Global;
 			sourceTree = "<group>";
@@ -201,6 +257,7 @@
 				TargetAttributes = {
 					31B3B9561DBDDA7D009082B6 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 4828JFYCV9;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -294,11 +351,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				31B3B95D1DBDDA7D009082B6 /* MainViewController.swift in Sources */,
-				319CF5281DE1CA9D00C615C2 /* CreateButton.swift in Sources */,
+				319CF5281DE1CA9D00C615C2 /* CreateFlatButton.swift in Sources */,
+				CFF9FDE11DFE753800008F60 /* QuestionViewController.swift in Sources */,
+				318FC7FE1E03752500FAF750 /* Wrong.swift in Sources */,
+				318FC7F81E0370E000FAF750 /* WordListViewController + Delegate.swift in Sources */,
+				311122581E02A13F003D7E56 /* QuestionViewController + DataSource.swift in Sources */,
 				319CF52C1DE1CB6600C615C2 /* Word.swift in Sources */,
+				3111225A1E02A152003D7E56 /* QuestionViewController + Delegate.swift in Sources */,
+				CFF9FDE31DFE787700008F60 /* LoadWordsFromJSON.swift in Sources */,
 				CFCE56641DD04F3F0085C791 /* WordListViewController.swift in Sources */,
 				CFEE5E3A1DF53B6900279EF2 /* CustomCell.swift in Sources */,
+				318FC7FC1E03717500FAF750 /* Construct.swift in Sources */,
 				31B3B95B1DBDDA7D009082B6 /* AppDelegate.swift in Sources */,
+				318FC7F61E0370CD00FAF750 /* WordListViewController + DataSource.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -423,6 +488,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4828JFYCV9;
 				INFOPLIST_FILE = QuizEnglishWords/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.quiz.apps.QuizEnglishWords;
@@ -438,6 +504,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4828JFYCV9;
 				INFOPLIST_FILE = QuizEnglishWords/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.quiz.apps.QuizEnglishWords;

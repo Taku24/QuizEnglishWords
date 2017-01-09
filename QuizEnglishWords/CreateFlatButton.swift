@@ -9,7 +9,7 @@
 import Foundation
 import FlatUIKit
 
-class CreateButton {
+class CreateFlatButton {
     
     static func create(button: FUIButton ,mainColor: UIColor,shadowColor: UIColor, titleText:String) -> FUIButton{
         button.buttonColor = mainColor

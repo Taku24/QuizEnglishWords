@@ -8,25 +8,25 @@ provides-member:
 - ["C16QuizEnglishWords18MainViewController", "setUpButton"]
 - ["C16QuizEnglishWords18MainViewController", "moveWordListView"]
 provides-dynamic-lookup:
-- "moveWordListView"
+- "listBtm"
 - "didReceiveMemoryWarning"
-- "missListBtm"
+- "setUpButton"
 - "viewDidLoad"
 - "testBtm"
-- "listBtm"
-- "setUpButton"
+- "moveWordListView"
+- "missListBtm"
 depends-top-level:
-- "UIViewController"
-- "FUIButton"
-- "AssignmentPrecedence"
-- !private "UIColor"
-- "MainViewController"
-- !private "WordListViewController"
-- !private "BooleanLiteralType"
+- !private "CreateFlatButton"
 - !private "StringLiteralType"
-- !private "CreateButton"
+- "MainViewController"
+- !private "UIColor"
+- "FUIButton"
+- !private "BooleanLiteralType"
+- !private "WordListViewController"
+- "AssignmentPrecedence"
+- "UIViewController"
 depends-member:
-- !private ["Ps9AnyObject", "CreateButton"]
+- !private ["Ps9AnyObject", "CreateFlatButton"]
 - !private ["Ps9AnyObject", "MainViewController"]
 - !private ["Ps9AnyObject", "UIColor"]
 - !private ["Ps9AnyObject", "WordListViewController"]
@@ -53,7 +53,7 @@ depends-member:
 - ["Ps9AnyObject", ""]
 - ["Sb", "deinit"]
 - !private ["PSo15CALayerDelegate", "addTarget"]
-- !private ["Ps7CVarArg", "CreateButton"]
+- !private ["Ps7CVarArg", "CreateFlatButton"]
 - !private ["Ps7CVarArg", "MainViewController"]
 - !private ["Ps7CVarArg", "UIColor"]
 - !private ["Ps7CVarArg", "WordListViewController"]
@@ -78,8 +78,8 @@ depends-member:
 - !private ["Ps7CVarArg", "wisteria"]
 - ["Ps7CVarArg", ""]
 - !private ["Ps10Comparable", "init"]
-- !private ["C16QuizEnglishWords12CreateButton", "create"]
-- !private ["Ps28CustomDebugStringConvertible", "CreateButton"]
+- !private ["C16QuizEnglishWords16CreateFlatButton", "create"]
+- !private ["Ps28CustomDebugStringConvertible", "CreateFlatButton"]
 - !private ["Ps28CustomDebugStringConvertible", "MainViewController"]
 - !private ["Ps28CustomDebugStringConvertible", "UIColor"]
 - !private ["Ps28CustomDebugStringConvertible", "WordListViewController"]
@@ -105,7 +105,7 @@ depends-member:
 - ["Ps28CustomDebugStringConvertible", ""]
 - !private ["Ps29CustomPlaygroundQuickLookable", "init"]
 - !private ["Ps17CustomReflectable", "init"]
-- !private ["Ps23CustomStringConvertible", "CreateButton"]
+- !private ["Ps23CustomStringConvertible", "CreateFlatButton"]
 - !private ["Ps23CustomStringConvertible", "MainViewController"]
 - !private ["Ps23CustomStringConvertible", "UIColor"]
 - !private ["Ps23CustomStringConvertible", "WordListViewController"]
@@ -129,7 +129,7 @@ depends-member:
 - ["Ps23CustomStringConvertible", "viewDidLoad"]
 - !private ["Ps23CustomStringConvertible", "wisteria"]
 - ["Ps23CustomStringConvertible", ""]
-- !private ["Ps9Equatable", "CreateButton"]
+- !private ["Ps9Equatable", "CreateFlatButton"]
 - !private ["Ps9Equatable", "MainViewController"]
 - !private ["Ps9Equatable", "UIColor"]
 - !private ["Ps9Equatable", "WordListViewController"]
@@ -161,7 +161,7 @@ depends-member:
 - !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
 - !private ["CSo9FUIButton", "addTarget"]
 - ["CSo9FUIButton", "deinit"]
-- !private ["Ps8Hashable", "CreateButton"]
+- !private ["Ps8Hashable", "CreateFlatButton"]
 - !private ["Ps8Hashable", "MainViewController"]
 - !private ["Ps8Hashable", "UIColor"]
 - !private ["Ps8Hashable", "WordListViewController"]
@@ -186,8 +186,9 @@ depends-member:
 - !private ["Ps8Hashable", "wisteria"]
 - ["Ps8Hashable", ""]
 - ["SQ", "deinit"]
+- !private ["P10SwiftyJSON17JSONSubscriptType", "init"]
 - !private ["Ps25LosslessStringConvertible", "init"]
-- !private ["C16QuizEnglishWords18MainViewController", "CreateButton"]
+- !private ["C16QuizEnglishWords18MainViewController", "CreateFlatButton"]
 - ["C16QuizEnglishWords18MainViewController", "FUIButton"]
 - !private ["C16QuizEnglishWords18MainViewController", "MainViewController"]
 - !private ["C16QuizEnglishWords18MainViewController", "UIColor"]
@@ -205,7 +206,7 @@ depends-member:
 - ["C16QuizEnglishWords18MainViewController", "viewDidLoad"]
 - !private ["Ps10MirrorPath", "init"]
 - ["CSo7NSCoder", "deinit"]
-- !private ["PSo8NSCoding", "CreateButton"]
+- !private ["PSo8NSCoding", "CreateFlatButton"]
 - !private ["PSo8NSCoding", "MainViewController"]
 - !private ["PSo8NSCoding", "UIColor"]
 - !private ["PSo8NSCoding", "WordListViewController"]
@@ -236,7 +237,7 @@ depends-member:
 - !private ["PSo9NSCopying", "nephritis"]
 - !private ["PSo9NSCopying", "pumpkin"]
 - !private ["PSo9NSCopying", "wisteria"]
-- !private ["PSo26NSExtensionRequestHandling", "CreateButton"]
+- !private ["PSo26NSExtensionRequestHandling", "CreateFlatButton"]
 - !private ["PSo26NSExtensionRequestHandling", "MainViewController"]
 - !private ["PSo26NSExtensionRequestHandling", "UIColor"]
 - !private ["PSo26NSExtensionRequestHandling", "WordListViewController"]
@@ -253,7 +254,7 @@ depends-member:
 - ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
 - ["PSo26NSExtensionRequestHandling", ""]
 - !private ["PSo16NSMutableCopying", "init"]
-- !private ["CSo8NSObject", "CreateButton"]
+- !private ["CSo8NSObject", "CreateFlatButton"]
 - ["CSo8NSObject", "FUIButton"]
 - !private ["CSo8NSObject", "MainViewController"]
 - !private ["CSo8NSObject", "UIColor"]
@@ -277,7 +278,7 @@ depends-member:
 - !private ["CSo8NSObject", "title"]
 - ["CSo8NSObject", "viewDidLoad"]
 - !private ["CSo8NSObject", "wisteria"]
-- !private ["PSo16NSObjectProtocol", "CreateButton"]
+- !private ["PSo16NSObjectProtocol", "CreateFlatButton"]
 - !private ["PSo16NSObjectProtocol", "MainViewController"]
 - !private ["PSo16NSObjectProtocol", "UIColor"]
 - !private ["PSo16NSObjectProtocol", "WordListViewController"]
@@ -320,7 +321,7 @@ depends-member:
 - !private ["Ps20TextOutputStreamable", "init"]
 - !private ["PSo29UIAccessibilityIdentification", "addTarget"]
 - !private ["PSo12UIAppearance", "addTarget"]
-- !private ["PSo21UIAppearanceContainer", "CreateButton"]
+- !private ["PSo21UIAppearanceContainer", "CreateFlatButton"]
 - !private ["PSo21UIAppearanceContainer", "MainViewController"]
 - !private ["PSo21UIAppearanceContainer", "UIColor"]
 - !private ["PSo21UIAppearanceContainer", "WordListViewController"]
@@ -344,7 +345,7 @@ depends-member:
 - !private ["CSo7UIColor", "nephritis"]
 - !private ["CSo7UIColor", "pumpkin"]
 - !private ["CSo7UIColor", "wisteria"]
-- !private ["PSo18UIContentContainer", "CreateButton"]
+- !private ["PSo18UIContentContainer", "CreateFlatButton"]
 - !private ["PSo18UIContentContainer", "MainViewController"]
 - !private ["PSo18UIContentContainer", "UIColor"]
 - !private ["PSo18UIContentContainer", "WordListViewController"]
@@ -365,7 +366,7 @@ depends-member:
 - !private ["VSC15UIControlEvents", "touchUpInside"]
 - !private ["PSo17UICoordinateSpace", "addTarget"]
 - !private ["PSo13UIDynamicItem", "addTarget"]
-- !private ["PSo18UIFocusEnvironment", "CreateButton"]
+- !private ["PSo18UIFocusEnvironment", "CreateFlatButton"]
 - !private ["PSo18UIFocusEnvironment", "MainViewController"]
 - !private ["PSo18UIFocusEnvironment", "UIColor"]
 - !private ["PSo18UIFocusEnvironment", "WordListViewController"]
@@ -387,7 +388,7 @@ depends-member:
 - !private ["CSo22UINavigationController", "pushViewController"]
 - ["CSo16UINavigationItem", "deinit"]
 - !private ["CSo16UINavigationItem", "title"]
-- !private ["CSo11UIResponder", "CreateButton"]
+- !private ["CSo11UIResponder", "CreateFlatButton"]
 - ["CSo11UIResponder", "FUIButton"]
 - !private ["CSo11UIResponder", "MainViewController"]
 - !private ["CSo11UIResponder", "UIColor"]
@@ -404,7 +405,7 @@ depends-member:
 - ["CSo11UIResponder", "setUpButton"]
 - ["CSo11UIResponder", "testBtm"]
 - ["CSo11UIResponder", "viewDidLoad"]
-- !private ["PSo30UIResponderStandardEditActions", "CreateButton"]
+- !private ["PSo30UIResponderStandardEditActions", "CreateFlatButton"]
 - !private ["PSo30UIResponderStandardEditActions", "MainViewController"]
 - !private ["PSo30UIResponderStandardEditActions", "UIColor"]
 - !private ["PSo30UIResponderStandardEditActions", "WordListViewController"]
@@ -422,7 +423,7 @@ depends-member:
 - ["PSo30UIResponderStandardEditActions", "viewDidLoad"]
 - ["PSo30UIResponderStandardEditActions", ""]
 - !private ["PSo20UIScrollViewDelegate", "init"]
-- !private ["PSo16UIStateRestoring", "CreateButton"]
+- !private ["PSo16UIStateRestoring", "CreateFlatButton"]
 - !private ["PSo16UIStateRestoring", "MainViewController"]
 - !private ["PSo16UIStateRestoring", "UIColor"]
 - !private ["PSo16UIStateRestoring", "WordListViewController"]
@@ -440,7 +441,7 @@ depends-member:
 - ["PSo16UIStateRestoring", ""]
 - !private ["PSo21UITableViewDataSource", "init"]
 - !private ["PSo19UITableViewDelegate", "init"]
-- !private ["PSo18UITraitEnvironment", "CreateButton"]
+- !private ["PSo18UITraitEnvironment", "CreateFlatButton"]
 - !private ["PSo18UITraitEnvironment", "MainViewController"]
 - !private ["PSo18UITraitEnvironment", "UIColor"]
 - !private ["PSo18UITraitEnvironment", "WordListViewController"]
@@ -458,7 +459,7 @@ depends-member:
 - ["PSo18UITraitEnvironment", "viewDidLoad"]
 - ["PSo18UITraitEnvironment", ""]
 - !private ["CSo6UIView", "addTarget"]
-- !private ["CSo16UIViewController", "CreateButton"]
+- !private ["CSo16UIViewController", "CreateFlatButton"]
 - ["CSo16UIViewController", "FUIButton"]
 - !private ["CSo16UIViewController", "MainViewController"]
 - !private ["CSo16UIViewController", "UIColor"]
@@ -490,7 +491,7 @@ depends-member:
 - !private ["Ps26_ExpressibleByColorLiteral", "pumpkin"]
 - !private ["Ps26_ExpressibleByColorLiteral", "wisteria"]
 - !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
-- !private ["Ps9_Hashable", "CreateButton"]
+- !private ["Ps9_Hashable", "CreateFlatButton"]
 - !private ["Ps9_Hashable", "MainViewController"]
 - !private ["Ps9_Hashable", "UIColor"]
 - !private ["Ps9_Hashable", "WordListViewController"]
@@ -521,7 +522,7 @@ depends-nominal:
 - !private "PSo15CALayerDelegate"
 - "Ps7CVarArg"
 - !private "Ps10Comparable"
-- !private "C16QuizEnglishWords12CreateButton"
+- !private "C16QuizEnglishWords16CreateFlatButton"
 - "Ps28CustomDebugStringConvertible"
 - !private "Ps29CustomPlaygroundQuickLookable"
 - !private "Ps17CustomReflectable"
@@ -535,6 +536,7 @@ depends-nominal:
 - "CSo9FUIButton"
 - "Ps8Hashable"
 - "SQ"
+- !private "P10SwiftyJSON17JSONSubscriptType"
 - !private "Ps25LosslessStringConvertible"
 - "C16QuizEnglishWords18MainViewController"
 - !private "Ps10MirrorPath"
@@ -592,6 +594,15 @@ depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
 - "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/QuizEnglishWords/QuizEnglishWords-Bridging-Header.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
 - "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/FlatUIKit/FlatUIKit.framework/Headers/UIPopoverController+FlatUI.h"
 - "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/FlatUIKit/FlatUIKit.framework/Headers/NSString+Icons.h"
 - "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/FlatUIKit/FlatUIKit.framework/Headers/FUIPopoverBackgroundView.h"
@@ -615,13 +626,8 @@ depends-external:
 - "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/FlatUIKit/FlatUIKit.framework/Headers/FlatUIKit.h"
 - "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/FlatUIKit/FlatUIKit.framework/Headers/FlatUIKit-umbrella.h"
 - "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/FlatUIKit/FlatUIKit.framework/Modules/module.modulemap"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/SwiftyJSON.swiftmodule/x86_64.swiftmodule"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-umbrella.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/module.modulemap"
 interface-hash: "af0747a31d940c52a3de58404d25379b"
