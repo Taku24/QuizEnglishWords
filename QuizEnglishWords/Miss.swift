@@ -9,7 +9,7 @@
 import Foundation
 import RealmSwift
 
-class Wrong: Object{
+class Miss: Object{
     
     static let realm = try! Realm()
     
@@ -21,24 +21,24 @@ class Wrong: Object{
         return "id"
     }
     
-    static func create() -> Wrong {
-        let wrong = Wrong()
-        wrong.id = lastId()
-        return wrong
+    static func create() -> Miss {
+        let miss = Miss()
+        miss.id = lastId()
+        return miss
     }
     
-    static func loadAll() -> [Wrong] {
-        let wrongs = realm.objects(Wrong.self).sorted(byProperty: "id", ascending: false)
-        var ret: [Wrong] = []
-        for wrong in wrongs {
-            ret.append(wrong)
+    static func loadAll() -> [Miss] {
+        let misses = realm.objects(Miss.self).sorted(byProperty: "id", ascending: false)
+        var ret: [Miss] = []
+        for miss in misses {
+            ret.append(miss)
         }
         return ret
     }
     
     static func lastId() -> Int {
-        if let wrong = realm.objects(Wrong.self).last {
-            return wrong.id + 1
+        if let miss = realm.objects(Miss.self).last {
+            return miss.id + 1
         } else {
             return 1
         }
@@ -46,21 +46,21 @@ class Wrong: Object{
     
     // addのみ
     func save() {
-        try! Wrong.realm.write {
-            Wrong.realm.add(self)
+        try! Miss.realm.write {
+            Miss.realm.add(self)
         }
     }
     
     func update(method: @escaping (() -> Void)) {
-        try! Wrong.realm.write {
+        try! Miss.realm.write {
             method()
         }
     }
     
     //削除メソッド
     func delete() {
-        try! Wrong.realm.write {
-            Wrong.realm.delete(self)
+        try! Miss.realm.write {
+            Miss.realm.delete(self)
         }
     }
 

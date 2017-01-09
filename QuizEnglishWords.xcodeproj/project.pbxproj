@@ -12,7 +12,7 @@
 		318FC7F61E0370CD00FAF750 /* WordListViewController + DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318FC7F51E0370CD00FAF750 /* WordListViewController + DataSource.swift */; };
 		318FC7F81E0370E000FAF750 /* WordListViewController + Delegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318FC7F71E0370E000FAF750 /* WordListViewController + Delegate.swift */; };
 		318FC7FC1E03717500FAF750 /* Construct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318FC7FB1E03717500FAF750 /* Construct.swift */; };
-		318FC7FE1E03752500FAF750 /* Wrong.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318FC7FD1E03752500FAF750 /* Wrong.swift */; };
+		318FC7FE1E03752500FAF750 /* Miss.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318FC7FD1E03752500FAF750 /* Miss.swift */; };
 		319CF5281DE1CA9D00C615C2 /* CreateFlatButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319CF5271DE1CA9D00C615C2 /* CreateFlatButton.swift */; };
 		319CF52A1DE1CB4400C615C2 /* EnglishWordsLsit.json in Resources */ = {isa = PBXBuildFile; fileRef = 319CF5291DE1CB4400C615C2 /* EnglishWordsLsit.json */; };
 		319CF52C1DE1CB6600C615C2 /* Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319CF52B1DE1CB6600C615C2 /* Word.swift */; };
@@ -43,7 +43,7 @@
 		318FC7F51E0370CD00FAF750 /* WordListViewController + DataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "WordListViewController + DataSource.swift"; sourceTree = "<group>"; };
 		318FC7F71E0370E000FAF750 /* WordListViewController + Delegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "WordListViewController + Delegate.swift"; sourceTree = "<group>"; };
 		318FC7FB1E03717500FAF750 /* Construct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Construct.swift; sourceTree = "<group>"; };
-		318FC7FD1E03752500FAF750 /* Wrong.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Wrong.swift; sourceTree = "<group>"; };
+		318FC7FD1E03752500FAF750 /* Miss.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Miss.swift; sourceTree = "<group>"; };
 		319CF5271DE1CA9D00C615C2 /* CreateFlatButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateFlatButton.swift; sourceTree = "<group>"; };
 		319CF5291DE1CB4400C615C2 /* EnglishWordsLsit.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = EnglishWordsLsit.json; sourceTree = "<group>"; };
 		319CF52B1DE1CB6600C615C2 /* Word.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Word.swift; sourceTree = "<group>"; };
@@ -119,7 +119,7 @@
 		318FC7FF1E03763100FAF750 /* Realm */ = {
 			isa = PBXGroup;
 			children = (
-				318FC7FD1E03752500FAF750 /* Wrong.swift */,
+				318FC7FD1E03752500FAF750 /* Miss.swift */,
 			);
 			name = Realm;
 			sourceTree = "<group>";
@@ -372,7 +372,7 @@
 				31F7539A1E236AB6004A3F00 /* MissListViewController + Delegate.swift in Sources */,
 				CFF9FDE11DFE753800008F60 /* QuestionViewController.swift in Sources */,
 				31F753981E236AA5004A3F00 /* MissListViewController + DataSource.swift in Sources */,
-				318FC7FE1E03752500FAF750 /* Wrong.swift in Sources */,
+				318FC7FE1E03752500FAF750 /* Miss.swift in Sources */,
 				31F753961E236A8E004A3F00 /* MissListViewController.swift in Sources */,
 				318FC7F81E0370E000FAF750 /* WordListViewController + Delegate.swift in Sources */,
 				311122581E02A13F003D7E56 /* QuestionViewController + DataSource.swift in Sources */,
