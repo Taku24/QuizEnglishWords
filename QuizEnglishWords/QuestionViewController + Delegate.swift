@@ -16,6 +16,7 @@ extension QuestionViewController: UITableViewDelegate {
         }
         else {
             judgeLabel.text = "不正解"
+            failedCount += 1
         }
         tableView.allowsSelection = false
         nextButton.isHidden = false

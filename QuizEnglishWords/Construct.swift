@@ -16,6 +16,8 @@ struct Construct {
     static let wrongListTitle = "間違えリスト"
     
     static let next = "次へ"
+    static let finish = "終了"
+    static let ok = "OK"
     
     static let trueMessage = "正解"
     static let falseMessage = "不正解"

@@ -20,7 +20,8 @@ class QuestionViewController: UIViewController{
     var questionList = [Word]()
     var json = LoadWordsFromJSON()
     var isCorrect:Int!
-    var questionCount:Int = 0
+    var questionCount = 0
+    var failedCount = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -55,14 +56,20 @@ extension QuestionViewController {
     
     private func changeTextLabel(questionCount: Int){
         questionList = json.createQuestionList()
-        questionCountLabel.text = String(questionCount)
+        questionCountLabel.text = String(questionCount) + "問目"
         questionLabel.text = questionList[isCorrect].question
         judgeLabel.text = ""
     }
     
     func nextQuestion(){
         if(questionCount == 10){
-            print("終了")
+            let alert:UIAlertController = UIAlertController(title: Construct.finish, message:String(failedCount) + "問ミス", preferredStyle: .alert)
+            let okAction :UIAlertAction = UIAlertAction(title:Construct.ok, style: .default, handler:{
+                (action:UIAlertAction!) -> Void in
+                self.dismiss(animated: true, completion: nil)
+            })
+            alert.addAction(okAction)
+            self.present(alert, animated: true, completion: nil)
         }
         else {
             createQuestion()
