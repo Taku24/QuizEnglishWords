@@ -12,6 +12,13 @@ import UIKit
 extension WordListViewController: UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let alert:UIAlertController = UIAlertController(title: englishWords[indexPath.row].question, message:englishWords[indexPath.row].answer, preferredStyle: .alert)
+        let okAction :UIAlertAction = UIAlertAction(title:Construct.ok, style: .default, handler:{
+            (action:UIAlertAction!) -> Void in
+
+        })
+        alert.addAction(okAction)
+        self.present(alert, animated: true, completion: nil)
         tableView.deselectRow(at: indexPath, animated: true)
     }
     

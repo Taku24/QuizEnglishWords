@@ -14,8 +14,6 @@ class Word {
     
     var answer: String!
     
-    var checkImage: String!
-    
     init(question: String, answer: String){
         self.question = question
         self.answer = answer
