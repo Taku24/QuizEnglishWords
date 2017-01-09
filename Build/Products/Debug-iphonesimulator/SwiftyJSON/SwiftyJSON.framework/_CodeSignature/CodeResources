@@ -6,23 +6,23 @@
 	<dict>
 		<key>Headers/SwiftyJSON-Swift.h</key>
 		<data>
-		bq3PTpjENtQ95J4Yw9vcdeqWdYM=
+		FGHWf+HRRmhiWUe2Po77+1pLXuA=
 		</data>
 		<key>Headers/SwiftyJSON-umbrella.h</key>
 		<data>
-		8xFM5PQldV/0aX7wLG6Tgia/fQ4=
+		G/I6SY/KJ1+loKRF2yCOThMtI80=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		AAP+1B6JfCoUCvniPxlRR2NIgYA=
+		yovSusokVLWQkxaw8ZbKFFlR2Vg=
 		</data>
 		<key>Modules/SwiftyJSON.swiftmodule/x86_64.swiftdoc</key>
 		<data>
-		mRqtc8QtdAqzly6sDAyIT7/vXuk=
+		f2XRZ2b+OKBZv3yN+AWV6qUT9OM=
 		</data>
 		<key>Modules/SwiftyJSON.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		szSNr2LmqcpxuwWvDpyAi3aaTrs=
+		lVgI2u5h4Kx/IBeIXDtIZqdP1Wo=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -35,44 +35,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			bq3PTpjENtQ95J4Yw9vcdeqWdYM=
+			FGHWf+HRRmhiWUe2Po77+1pLXuA=
 			</data>
 			<key>hash2</key>
 			<data>
-			ohzReECvOCRU0BsqqAHpsz6JttUvotVFiSPTajQpUpo=
+			IAE1Vp3mQjjIsFI+rFE1uFei44ALLW7a0Cx51s1Ppao=
 			</data>
 		</dict>
 		<key>Headers/SwiftyJSON-umbrella.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			8xFM5PQldV/0aX7wLG6Tgia/fQ4=
+			G/I6SY/KJ1+loKRF2yCOThMtI80=
 			</data>
 			<key>hash2</key>
 			<data>
-			ezw8CM332uJDXp0/zU5IsmZIDRyJOq8VFb4cRdynMi0=
+			hyyyw+0BBmg1UF8vxqH7JHEDQmY+bNoXJPQnw+xjjg8=
 			</data>
 		</dict>
 		<key>Modules/SwiftyJSON.swiftmodule/x86_64.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			mRqtc8QtdAqzly6sDAyIT7/vXuk=
+			f2XRZ2b+OKBZv3yN+AWV6qUT9OM=
 			</data>
 			<key>hash2</key>
 			<data>
-			UsO32FP2bC/AWG9uopjTa5P/0O8RfEmcD8ASghKxrNM=
+			FTCtTjnEiRtMu//jdaPKld4UQ5VEHvvrmv3wL+ExjZo=
 			</data>
 		</dict>
 		<key>Modules/SwiftyJSON.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			szSNr2LmqcpxuwWvDpyAi3aaTrs=
+			lVgI2u5h4Kx/IBeIXDtIZqdP1Wo=
 			</data>
 			<key>hash2</key>
 			<data>
-			Nco7tkpcO+x4p+eyWEWQciCErPtGheE7ecml+wpU1yg=
+			MzJd/b3M7ChqE104kEhAt/EaU0///WgbypsKyKzJZ3U=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

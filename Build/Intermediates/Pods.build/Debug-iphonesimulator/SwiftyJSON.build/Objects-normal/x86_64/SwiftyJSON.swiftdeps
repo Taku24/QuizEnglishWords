@@ -91,75 +91,75 @@ provides-member:
 provides-dynamic-lookup:
 - "isBool"
 depends-top-level:
-- "AssignmentPrecedence"
-- !private "falseObjCType"
-- !private "!"
-- !private "NSLocalizedDescriptionKey"
-- !private "ComparisonResult"
-- "ErrorWrongType"
-- !private "CharacterSet"
-- "StringLiteralType"
-- "Dictionary"
-- "String"
-- "BooleanLiteralType"
-- !private "Array"
-- "Int64"
-- !private "??"
-- "Swift"
-- "ErrorIndexOutOfBounds"
-- "UInt8"
-- "UInt16"
-- "DictionaryIndex"
-- !private "NSString"
-- "Double"
-- "UInt"
-- "JSONKey"
-- "NSErrorPointer"
-- !private "Foundation"
-- "JSONIndex"
-- !private "NSDecimalNumber"
-- !private "||"
-- "UInt64"
-- "UInt32"
-- "Int32"
-- "trueNumber"
-- "!="
-- "Float"
-- "falseNumber"
-- "Data"
-- "Int16"
-- "NSNull"
-- ">"
-- !private "NSArray"
-- "JSONSerialization"
 - "Int"
-- "NSError"
-- "Collection"
-- "ErrorUnsupportedType"
-- !private "NSDictionary"
-- "Int8"
-- "NSNumber"
-- !private "trueObjCType"
-- "TernaryPrecedence"
-- "<="
-- "IntegerLiteralType"
-- "URL"
 - "Bool"
-- "JSON"
-- "FloatLiteralType"
-- "ErrorNotExist"
+- !private "trueObjCType"
 - "Comparable"
-- "JSONRawIndex"
-- "Type"
-- "ErrorInvalidJSON"
 - !private "&&"
-- "JSONSubscriptType"
-- "ErrorDomain"
-- "=="
-- !private "~="
-- "<"
+- "UInt16"
+- !private "NSArray"
 - ">="
+- "UInt"
+- ">"
+- "ErrorIndexOutOfBounds"
+- !private "Array"
+- "URL"
+- "Collection"
+- "falseNumber"
+- !private "ComparisonResult"
+- !private "??"
+- "Type"
+- "String"
+- "=="
+- "JSONKey"
+- !private "~="
+- "AssignmentPrecedence"
+- "ErrorInvalidJSON"
+- "NSError"
+- "NSNull"
 - "CastingPrecedence"
+- "TernaryPrecedence"
+- !private "NSString"
+- !private "CharacterSet"
+- "IntegerLiteralType"
+- !private "NSDictionary"
+- "FloatLiteralType"
+- !private "NSLocalizedDescriptionKey"
+- "ErrorUnsupportedType"
+- "BooleanLiteralType"
+- "trueNumber"
+- "Double"
+- "UInt8"
+- "Int64"
+- "!="
+- "ErrorNotExist"
+- "NSErrorPointer"
+- "DictionaryIndex"
+- "Swift"
+- "Data"
+- "Float"
+- !private "!"
+- "StringLiteralType"
+- "ErrorDomain"
+- "Dictionary"
+- "JSONSerialization"
+- "Int16"
+- !private "falseObjCType"
+- "JSONIndex"
+- "UInt64"
+- "Int8"
+- !private "NSDecimalNumber"
+- "Int32"
+- "JSONSubscriptType"
+- "UInt32"
+- "JSONRawIndex"
+- "ErrorWrongType"
+- "NSNumber"
+- "<"
+- "JSON"
+- "<="
+- !private "Foundation"
+- !private "||"
 depends-member:
 - !private ["Ps9AnyObject", "Encoding"]
 - ["Ps9AnyObject", "ReadingOptions"]
@@ -277,6 +277,7 @@ depends-member:
 - !private ["Ps7CVarArg", "Iterator"]
 - !private ["Ps7CVarArg", "JSONKey"]
 - ["Ps7CVarArg", "Key"]
+- !private ["Ps7CVarArg", "RawValue"]
 - ["Ps7CVarArg", "ReadingOptions"]
 - ["Ps7CVarArg", "Stride"]
 - !private ["Ps7CVarArg", "String"]
@@ -651,6 +652,7 @@ depends-member:
 - ["Ps29CustomPlaygroundQuickLookable", "Encoding"]
 - ["Ps29CustomPlaygroundQuickLookable", "IntegerLiteralType"]
 - !private ["Ps29CustomPlaygroundQuickLookable", "JSONKey"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "RawValue"]
 - ["Ps29CustomPlaygroundQuickLookable", "Stride"]
 - ["Ps29CustomPlaygroundQuickLookable", "_DisabledRangeIndex"]
 - !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
@@ -671,6 +673,7 @@ depends-member:
 - !private ["Ps17CustomReflectable", "Iterator"]
 - !private ["Ps17CustomReflectable", "JSONKey"]
 - ["Ps17CustomReflectable", "Key"]
+- !private ["Ps17CustomReflectable", "RawValue"]
 - ["Ps17CustomReflectable", "Stride"]
 - !private ["Ps17CustomReflectable", "SubSequence"]
 - ["Ps17CustomReflectable", "Value"]
@@ -1659,6 +1662,7 @@ depends-member:
 - ["Ps23ExpressibleByNilLiteral", ""]
 - ["Ps32ExpressibleByStringInterpolation", "Encoding"]
 - !private ["Ps32ExpressibleByStringInterpolation", "JSONKey"]
+- !private ["Ps32ExpressibleByStringInterpolation", "RawValue"]
 - !private ["Ps32ExpressibleByStringInterpolation", "addingPercentEncoding"]
 - !private ["Ps32ExpressibleByStringInterpolation", "caseInsensitiveCompare"]
 - !private ["Ps32ExpressibleByStringInterpolation", "data"]
@@ -2271,6 +2275,7 @@ depends-member:
 - ["P10SwiftyJSON17JSONSubscriptType", "Encoding"]
 - ["P10SwiftyJSON17JSONSubscriptType", "IntegerLiteralType"]
 - ["P10SwiftyJSON17JSONSubscriptType", "JSONKey"]
+- !private ["P10SwiftyJSON17JSONSubscriptType", "RawValue"]
 - ["P10SwiftyJSON17JSONSubscriptType", "Stride"]
 - ["P10SwiftyJSON17JSONSubscriptType", "_DisabledRangeIndex"]
 - !private ["P10SwiftyJSON17JSONSubscriptType", "addingPercentEncoding"]
@@ -2288,6 +2293,7 @@ depends-member:
 - !private ["Ps20LazySequenceProtocol", "Iterator"]
 - ["Ps25LosslessStringConvertible", "Encoding"]
 - !private ["Ps25LosslessStringConvertible", "JSONKey"]
+- !private ["Ps25LosslessStringConvertible", "RawValue"]
 - !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
 - !private ["Ps25LosslessStringConvertible", "addingPercentEncoding"]
 - !private ["Ps25LosslessStringConvertible", "caseInsensitiveCompare"]
@@ -2298,6 +2304,7 @@ depends-member:
 - ["Ps10MirrorPath", "Encoding"]
 - ["Ps10MirrorPath", "IntegerLiteralType"]
 - !private ["Ps10MirrorPath", "JSONKey"]
+- !private ["Ps10MirrorPath", "RawValue"]
 - ["Ps10MirrorPath", "Stride"]
 - ["Ps10MirrorPath", "_DisabledRangeIndex"]
 - !private ["Ps10MirrorPath", "addingPercentEncoding"]
@@ -2875,6 +2882,7 @@ depends-member:
 - ["Ps10Strideable", "jsonKey"]
 - ["SS", "Encoding"]
 - ["SS", "JSONKey"]
+- !private ["SS", "RawValue"]
 - !private ["SS", "addingPercentEncoding"]
 - !private ["SS", "caseInsensitiveCompare"]
 - !private ["SS", "data"]
@@ -2883,6 +2891,7 @@ depends-member:
 - ["SS", "jsonKey"]
 - ["Ps16TextOutputStream", "Encoding"]
 - !private ["Ps16TextOutputStream", "JSONKey"]
+- !private ["Ps16TextOutputStream", "RawValue"]
 - !private ["Ps16TextOutputStream", "addingPercentEncoding"]
 - !private ["Ps16TextOutputStream", "caseInsensitiveCompare"]
 - !private ["Ps16TextOutputStream", "data"]
@@ -2890,6 +2899,7 @@ depends-member:
 - ["Ps16TextOutputStream", "jsonKey"]
 - ["Ps20TextOutputStreamable", "Encoding"]
 - !private ["Ps20TextOutputStreamable", "JSONKey"]
+- !private ["Ps20TextOutputStreamable", "RawValue"]
 - !private ["Ps20TextOutputStreamable", "addingPercentEncoding"]
 - !private ["Ps20TextOutputStreamable", "caseInsensitiveCompare"]
 - !private ["Ps20TextOutputStreamable", "data"]
@@ -2961,6 +2971,7 @@ depends-member:
 - !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "description"]
 - ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "Encoding"]
 - !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "JSONKey"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "RawValue"]
 - !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "addingPercentEncoding"]
 - !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "caseInsensitiveCompare"]
 - !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "data"]
@@ -2974,6 +2985,7 @@ depends-member:
 - ["Ps35_ExpressibleByBuiltinIntegerLiteral", "jsonKey"]
 - ["Ps34_ExpressibleByBuiltinStringLiteral", "Encoding"]
 - !private ["Ps34_ExpressibleByBuiltinStringLiteral", "JSONKey"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "RawValue"]
 - !private ["Ps34_ExpressibleByBuiltinStringLiteral", "addingPercentEncoding"]
 - !private ["Ps34_ExpressibleByBuiltinStringLiteral", "caseInsensitiveCompare"]
 - !private ["Ps34_ExpressibleByBuiltinStringLiteral", "data"]
@@ -2981,6 +2993,7 @@ depends-member:
 - ["Ps34_ExpressibleByBuiltinStringLiteral", "jsonKey"]
 - ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "Encoding"]
 - !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "JSONKey"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "RawValue"]
 - !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "addingPercentEncoding"]
 - !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "caseInsensitiveCompare"]
 - !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "data"]
@@ -2988,6 +3001,7 @@ depends-member:
 - ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "jsonKey"]
 - ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "Encoding"]
 - !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "JSONKey"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "RawValue"]
 - !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "addingPercentEncoding"]
 - !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "caseInsensitiveCompare"]
 - !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "data"]
@@ -3111,6 +3125,7 @@ depends-member:
 - !private ["Ps21_ObjectiveCBridgeable", "Iterator"]
 - !private ["Ps21_ObjectiveCBridgeable", "JSONKey"]
 - ["Ps21_ObjectiveCBridgeable", "Key"]
+- !private ["Ps21_ObjectiveCBridgeable", "RawValue"]
 - ["Ps21_ObjectiveCBridgeable", "Stride"]
 - !private ["Ps21_ObjectiveCBridgeable", "SubSequence"]
 - ["Ps21_ObjectiveCBridgeable", "Value"]

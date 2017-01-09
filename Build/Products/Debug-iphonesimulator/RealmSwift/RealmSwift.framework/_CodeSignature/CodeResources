@@ -6,23 +6,23 @@
 	<dict>
 		<key>Headers/RealmSwift-Swift.h</key>
 		<data>
-		9qxgt9ECGPbqS4O+YmLcnV4T3C4=
+		0LsTSDd5uE/UE0r12W7/nZwlgDY=
 		</data>
 		<key>Headers/RealmSwift-umbrella.h</key>
 		<data>
-		vNJ5YOSJKzK0fiDCouJSkLW8Sdo=
+		mjrm7sjcQAfzfFLKxoUP9dDFswg=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		nF1rPLydI1ubX2VXG9X2h0NHz8M=
+		UteHjSUA14TJ6I1pQz3Lcnp5rPk=
 		</data>
 		<key>Modules/RealmSwift.swiftmodule/x86_64.swiftdoc</key>
 		<data>
-		IevS/mLfEAcQSixO1m5llKCJbCI=
+		WzmRiJQaTVBsQjsWl5uN2EyZGiE=
 		</data>
 		<key>Modules/RealmSwift.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		9SokKL4I6Pj0X+Czs/d7YySIldI=
+		0mF3ji5m+0nv57w+e86/PB9jBFg=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -35,44 +35,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			9qxgt9ECGPbqS4O+YmLcnV4T3C4=
+			0LsTSDd5uE/UE0r12W7/nZwlgDY=
 			</data>
 			<key>hash2</key>
 			<data>
-			UTOTxEAuVWgkXvgoBZNAGbO0KEiEyumqmAZmdiR+8q8=
+			9u5ZjSOkaAt7jNbmMDkH69aqX+EZVxXgTPVHWT/aq8Y=
 			</data>
 		</dict>
 		<key>Headers/RealmSwift-umbrella.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			vNJ5YOSJKzK0fiDCouJSkLW8Sdo=
+			mjrm7sjcQAfzfFLKxoUP9dDFswg=
 			</data>
 			<key>hash2</key>
 			<data>
-			h7rtryUGgJjMbcK1CMEgwZtIb6D5LlSaimXt18G1Aww=
+			g29/BSh5LGP5efb31p7TbwiaIg5u/RxdT3hq+U+1dto=
 			</data>
 		</dict>
 		<key>Modules/RealmSwift.swiftmodule/x86_64.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			IevS/mLfEAcQSixO1m5llKCJbCI=
+			WzmRiJQaTVBsQjsWl5uN2EyZGiE=
 			</data>
 			<key>hash2</key>
 			<data>
-			sbNycqNCO+BKKUzlzeYBncqCtAu0lcOFe+RwOVlbIBU=
+			LqtEc5xXOT8i38iv6vuQdk5Nf2o9fssgodeJdp9yIc0=
 			</data>
 		</dict>
 		<key>Modules/RealmSwift.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			9SokKL4I6Pj0X+Czs/d7YySIldI=
+			0mF3ji5m+0nv57w+e86/PB9jBFg=
 			</data>
 			<key>hash2</key>
 			<data>
-			JV0s7cfewhIatlg479+4Ol60+kgFT4PTq2ek4M/mc1E=
+			DwTJTsvM/v5qxItfZT80lM0Vtw32BZRuy3tUXh9O1fQ=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

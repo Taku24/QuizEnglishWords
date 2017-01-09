@@ -1,5 +1,5 @@
-version: "Apple Swift version 3.0.1 (swiftlang-800.0.58.6 clang-800.0.42.1)"
-options: "09ba5acc6eb15aff6a22cfee9c047307"
-build_time: [535074247, 937089000]
+version: "Apple Swift version 3.0.2 (swiftlang-800.0.63 clang-800.0.42.1)"
+options: "189fa8624c717e2abcfdfb2b3c128b42"
+build_time: [537255780, 989735000]
 inputs:
   "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Pods/SwiftyJSON/Source/SwiftyJSON.swift": [533006607, 0]
