@@ -1,0 +1,725 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "WordListViewController"
+provides-nominal:
+- "C16QuizEnglishWords22WordListViewController"
+provides-member:
+- ["C16QuizEnglishWords22WordListViewController", ""]
+provides-dynamic-lookup:
+- "viewDidLoad"
+- "wordListView"
+- "didReceiveMemoryWarning"
+depends-top-level:
+- "Word"
+- !private "StringLiteralType"
+- !private "UIScreen"
+- "WordListViewController"
+- "LoadWordsFromJSON"
+- "UIViewController"
+- "AssignmentPrecedence"
+- !private "CGRect"
+- !private "UINib"
+- "UITableView"
+depends-member:
+- !private ["Ps9AnyObject", "CGRect"]
+- ["Ps9AnyObject", "LoadWordsFromJSON"]
+- !private ["Ps9AnyObject", "UINib"]
+- !private ["Ps9AnyObject", "UIScreen"]
+- ["Ps9AnyObject", "UITableView"]
+- ["Ps9AnyObject", "Word"]
+- !private ["Ps9AnyObject", "addSubview"]
+- !private ["Ps9AnyObject", "bounds"]
+- !private ["Ps9AnyObject", "dataSource"]
+- !private ["Ps9AnyObject", "delegate"]
+- ["Ps9AnyObject", "didReceiveMemoryWarning"]
+- ["Ps9AnyObject", "englishWords"]
+- !private ["Ps9AnyObject", "frame"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "loadAll"]
+- ["Ps9AnyObject", "loadJSON"]
+- !private ["Ps9AnyObject", "main"]
+- !private ["Ps9AnyObject", "register"]
+- !private ["Ps9AnyObject", "view"]
+- ["Ps9AnyObject", "viewDidLoad"]
+- ["Ps9AnyObject", "wordListView"]
+- ["Ps9AnyObject", ""]
+- ["Sa", "deinit"]
+- ["Sa", "init"]
+- ["Ps23BidirectionalCollection", "init"]
+- ["Ps22BidirectionalIndexable", "init"]
+- !private ["PSo15CALayerDelegate", "addSubview"]
+- !private ["PSo15CALayerDelegate", "dataSource"]
+- !private ["PSo15CALayerDelegate", "delegate"]
+- !private ["PSo15CALayerDelegate", "frame"]
+- ["PSo15CALayerDelegate", "init"]
+- !private ["PSo15CALayerDelegate", "register"]
+- ["V12CoreGraphics7CGFloat", "deinit"]
+- ["VSC6CGRect", "deinit"]
+- !private ["VSC6CGRect", "init"]
+- !private ["VSC6CGRect", "size"]
+- ["VSC6CGSize", "deinit"]
+- !private ["VSC6CGSize", "height"]
+- !private ["VSC6CGSize", "width"]
+- !private ["Ps7CVarArg", "CGRect"]
+- ["Ps7CVarArg", "LoadWordsFromJSON"]
+- !private ["Ps7CVarArg", "UINib"]
+- !private ["Ps7CVarArg", "UIScreen"]
+- ["Ps7CVarArg", "UITableView"]
+- ["Ps7CVarArg", "Word"]
+- !private ["Ps7CVarArg", "addSubview"]
+- !private ["Ps7CVarArg", "bounds"]
+- !private ["Ps7CVarArg", "dataSource"]
+- !private ["Ps7CVarArg", "delegate"]
+- ["Ps7CVarArg", "didReceiveMemoryWarning"]
+- ["Ps7CVarArg", "englishWords"]
+- !private ["Ps7CVarArg", "frame"]
+- ["Ps7CVarArg", "init"]
+- ["Ps7CVarArg", "loadJSON"]
+- !private ["Ps7CVarArg", "main"]
+- !private ["Ps7CVarArg", "register"]
+- !private ["Ps7CVarArg", "view"]
+- ["Ps7CVarArg", "viewDidLoad"]
+- ["Ps7CVarArg", "wordListView"]
+- ["Ps7CVarArg", ""]
+- ["Ps10Collection", "init"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "CGRect"]
+- ["Ps28CustomDebugStringConvertible", "LoadWordsFromJSON"]
+- !private ["Ps28CustomDebugStringConvertible", "UINib"]
+- !private ["Ps28CustomDebugStringConvertible", "UIScreen"]
+- ["Ps28CustomDebugStringConvertible", "UITableView"]
+- ["Ps28CustomDebugStringConvertible", "Word"]
+- !private ["Ps28CustomDebugStringConvertible", "addSubview"]
+- !private ["Ps28CustomDebugStringConvertible", "bounds"]
+- !private ["Ps28CustomDebugStringConvertible", "dataSource"]
+- !private ["Ps28CustomDebugStringConvertible", "delegate"]
+- ["Ps28CustomDebugStringConvertible", "didReceiveMemoryWarning"]
+- ["Ps28CustomDebugStringConvertible", "englishWords"]
+- !private ["Ps28CustomDebugStringConvertible", "frame"]
+- !private ["Ps28CustomDebugStringConvertible", "height"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "loadJSON"]
+- !private ["Ps28CustomDebugStringConvertible", "main"]
+- !private ["Ps28CustomDebugStringConvertible", "register"]
+- !private ["Ps28CustomDebugStringConvertible", "size"]
+- !private ["Ps28CustomDebugStringConvertible", "view"]
+- ["Ps28CustomDebugStringConvertible", "viewDidLoad"]
+- !private ["Ps28CustomDebugStringConvertible", "width"]
+- ["Ps28CustomDebugStringConvertible", "wordListView"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "height"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "size"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "width"]
+- !private ["Ps17CustomReflectable", "height"]
+- ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "size"]
+- !private ["Ps17CustomReflectable", "width"]
+- !private ["Ps23CustomStringConvertible", "CGRect"]
+- ["Ps23CustomStringConvertible", "LoadWordsFromJSON"]
+- !private ["Ps23CustomStringConvertible", "UINib"]
+- !private ["Ps23CustomStringConvertible", "UIScreen"]
+- ["Ps23CustomStringConvertible", "UITableView"]
+- ["Ps23CustomStringConvertible", "Word"]
+- !private ["Ps23CustomStringConvertible", "addSubview"]
+- !private ["Ps23CustomStringConvertible", "bounds"]
+- !private ["Ps23CustomStringConvertible", "dataSource"]
+- !private ["Ps23CustomStringConvertible", "delegate"]
+- ["Ps23CustomStringConvertible", "didReceiveMemoryWarning"]
+- ["Ps23CustomStringConvertible", "englishWords"]
+- !private ["Ps23CustomStringConvertible", "frame"]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "loadJSON"]
+- !private ["Ps23CustomStringConvertible", "main"]
+- !private ["Ps23CustomStringConvertible", "register"]
+- !private ["Ps23CustomStringConvertible", "view"]
+- ["Ps23CustomStringConvertible", "viewDidLoad"]
+- ["Ps23CustomStringConvertible", "wordListView"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "CGRect"]
+- ["Ps9Equatable", "LoadWordsFromJSON"]
+- !private ["Ps9Equatable", "UINib"]
+- !private ["Ps9Equatable", "UIScreen"]
+- ["Ps9Equatable", "UITableView"]
+- ["Ps9Equatable", "Word"]
+- !private ["Ps9Equatable", "addSubview"]
+- !private ["Ps9Equatable", "bounds"]
+- !private ["Ps9Equatable", "dataSource"]
+- !private ["Ps9Equatable", "delegate"]
+- ["Ps9Equatable", "didReceiveMemoryWarning"]
+- ["Ps9Equatable", "englishWords"]
+- !private ["Ps9Equatable", "frame"]
+- !private ["Ps9Equatable", "height"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "loadJSON"]
+- !private ["Ps9Equatable", "main"]
+- !private ["Ps9Equatable", "register"]
+- !private ["Ps9Equatable", "size"]
+- !private ["Ps9Equatable", "view"]
+- ["Ps9Equatable", "viewDidLoad"]
+- !private ["Ps9Equatable", "width"]
+- ["Ps9Equatable", "wordListView"]
+- ["Ps9Equatable", ""]
+- ["Ps25ExpressibleByArrayLiteral", "init"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps32ExpressibleByStringInterpolation", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps8Hashable", "CGRect"]
+- ["Ps8Hashable", "LoadWordsFromJSON"]
+- !private ["Ps8Hashable", "UINib"]
+- !private ["Ps8Hashable", "UIScreen"]
+- ["Ps8Hashable", "UITableView"]
+- ["Ps8Hashable", "Word"]
+- !private ["Ps8Hashable", "addSubview"]
+- !private ["Ps8Hashable", "bounds"]
+- !private ["Ps8Hashable", "dataSource"]
+- !private ["Ps8Hashable", "delegate"]
+- ["Ps8Hashable", "didReceiveMemoryWarning"]
+- ["Ps8Hashable", "englishWords"]
+- !private ["Ps8Hashable", "frame"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "loadJSON"]
+- !private ["Ps8Hashable", "main"]
+- !private ["Ps8Hashable", "register"]
+- !private ["Ps8Hashable", "view"]
+- ["Ps8Hashable", "viewDidLoad"]
+- ["Ps8Hashable", "wordListView"]
+- ["Ps8Hashable", ""]
+- ["Ps9Indexable", "init"]
+- ["Ps13IndexableBase", "init"]
+- !private ["P10SwiftyJSON17JSONSubscriptType", "init"]
+- ["C16QuizEnglishWords17LoadWordsFromJSON", "deinit"]
+- ["C16QuizEnglishWords17LoadWordsFromJSON", "init"]
+- !private ["C16QuizEnglishWords17LoadWordsFromJSON", "loadAll"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- ["Ps17MutableCollection", "init"]
+- ["Ps16MutableIndexable", "init"]
+- ["CSo7NSCoder", "deinit"]
+- !private ["PSo8NSCoding", "CGRect"]
+- ["PSo8NSCoding", "LoadWordsFromJSON"]
+- !private ["PSo8NSCoding", "UINib"]
+- !private ["PSo8NSCoding", "UIScreen"]
+- ["PSo8NSCoding", "UITableView"]
+- ["PSo8NSCoding", "Word"]
+- !private ["PSo8NSCoding", "addSubview"]
+- !private ["PSo8NSCoding", "dataSource"]
+- !private ["PSo8NSCoding", "delegate"]
+- ["PSo8NSCoding", "didReceiveMemoryWarning"]
+- ["PSo8NSCoding", "englishWords"]
+- !private ["PSo8NSCoding", "frame"]
+- ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", "loadJSON"]
+- !private ["PSo8NSCoding", "register"]
+- !private ["PSo8NSCoding", "view"]
+- ["PSo8NSCoding", "viewDidLoad"]
+- ["PSo8NSCoding", "wordListView"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo26NSExtensionRequestHandling", "CGRect"]
+- ["PSo26NSExtensionRequestHandling", "LoadWordsFromJSON"]
+- !private ["PSo26NSExtensionRequestHandling", "UINib"]
+- !private ["PSo26NSExtensionRequestHandling", "UIScreen"]
+- ["PSo26NSExtensionRequestHandling", "UITableView"]
+- ["PSo26NSExtensionRequestHandling", "Word"]
+- ["PSo26NSExtensionRequestHandling", "didReceiveMemoryWarning"]
+- ["PSo26NSExtensionRequestHandling", "englishWords"]
+- !private ["PSo26NSExtensionRequestHandling", "init"]
+- ["PSo26NSExtensionRequestHandling", "loadJSON"]
+- !private ["PSo26NSExtensionRequestHandling", "view"]
+- ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
+- ["PSo26NSExtensionRequestHandling", "wordListView"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["CSo8NSObject", "CGRect"]
+- ["CSo8NSObject", "LoadWordsFromJSON"]
+- !private ["CSo8NSObject", "UINib"]
+- !private ["CSo8NSObject", "UIScreen"]
+- ["CSo8NSObject", "UITableView"]
+- ["CSo8NSObject", "Word"]
+- !private ["CSo8NSObject", "addSubview"]
+- !private ["CSo8NSObject", "bounds"]
+- !private ["CSo8NSObject", "dataSource"]
+- !private ["CSo8NSObject", "delegate"]
+- ["CSo8NSObject", "didReceiveMemoryWarning"]
+- ["CSo8NSObject", "englishWords"]
+- !private ["CSo8NSObject", "frame"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "loadJSON"]
+- !private ["CSo8NSObject", "main"]
+- !private ["CSo8NSObject", "register"]
+- !private ["CSo8NSObject", "view"]
+- ["CSo8NSObject", "viewDidLoad"]
+- ["CSo8NSObject", "wordListView"]
+- !private ["PSo16NSObjectProtocol", "CGRect"]
+- ["PSo16NSObjectProtocol", "LoadWordsFromJSON"]
+- !private ["PSo16NSObjectProtocol", "UINib"]
+- !private ["PSo16NSObjectProtocol", "UIScreen"]
+- ["PSo16NSObjectProtocol", "UITableView"]
+- ["PSo16NSObjectProtocol", "Word"]
+- !private ["PSo16NSObjectProtocol", "addSubview"]
+- !private ["PSo16NSObjectProtocol", "bounds"]
+- !private ["PSo16NSObjectProtocol", "dataSource"]
+- !private ["PSo16NSObjectProtocol", "delegate"]
+- ["PSo16NSObjectProtocol", "didReceiveMemoryWarning"]
+- ["PSo16NSObjectProtocol", "englishWords"]
+- !private ["PSo16NSObjectProtocol", "frame"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "loadJSON"]
+- !private ["PSo16NSObjectProtocol", "main"]
+- !private ["PSo16NSObjectProtocol", "register"]
+- !private ["PSo16NSObjectProtocol", "view"]
+- ["PSo16NSObjectProtocol", "viewDidLoad"]
+- ["PSo16NSObjectProtocol", "wordListView"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
+- ["Sq", "deinit"]
+- ["Ps22RandomAccessCollection", "init"]
+- ["Ps21RandomAccessIndexable", "init"]
+- ["Ps26RangeReplaceableCollection", "init"]
+- ["Ps25RangeReplaceableIndexable", "init"]
+- ["Ps8Sequence", "init"]
+- ["SS", "deinit"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "addSubview"]
+- !private ["PSo29UIAccessibilityIdentification", "dataSource"]
+- !private ["PSo29UIAccessibilityIdentification", "delegate"]
+- !private ["PSo29UIAccessibilityIdentification", "frame"]
+- ["PSo29UIAccessibilityIdentification", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "register"]
+- !private ["PSo12UIAppearance", "addSubview"]
+- !private ["PSo12UIAppearance", "dataSource"]
+- !private ["PSo12UIAppearance", "delegate"]
+- !private ["PSo12UIAppearance", "frame"]
+- ["PSo12UIAppearance", "init"]
+- !private ["PSo12UIAppearance", "register"]
+- !private ["PSo21UIAppearanceContainer", "CGRect"]
+- ["PSo21UIAppearanceContainer", "LoadWordsFromJSON"]
+- !private ["PSo21UIAppearanceContainer", "UINib"]
+- !private ["PSo21UIAppearanceContainer", "UIScreen"]
+- ["PSo21UIAppearanceContainer", "UITableView"]
+- ["PSo21UIAppearanceContainer", "Word"]
+- !private ["PSo21UIAppearanceContainer", "addSubview"]
+- !private ["PSo21UIAppearanceContainer", "dataSource"]
+- !private ["PSo21UIAppearanceContainer", "delegate"]
+- ["PSo21UIAppearanceContainer", "didReceiveMemoryWarning"]
+- ["PSo21UIAppearanceContainer", "englishWords"]
+- !private ["PSo21UIAppearanceContainer", "frame"]
+- ["PSo21UIAppearanceContainer", "init"]
+- ["PSo21UIAppearanceContainer", "loadJSON"]
+- !private ["PSo21UIAppearanceContainer", "register"]
+- !private ["PSo21UIAppearanceContainer", "view"]
+- ["PSo21UIAppearanceContainer", "viewDidLoad"]
+- ["PSo21UIAppearanceContainer", "wordListView"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["PSo18UIContentContainer", "CGRect"]
+- ["PSo18UIContentContainer", "LoadWordsFromJSON"]
+- !private ["PSo18UIContentContainer", "UINib"]
+- !private ["PSo18UIContentContainer", "UIScreen"]
+- ["PSo18UIContentContainer", "UITableView"]
+- ["PSo18UIContentContainer", "Word"]
+- ["PSo18UIContentContainer", "didReceiveMemoryWarning"]
+- ["PSo18UIContentContainer", "englishWords"]
+- !private ["PSo18UIContentContainer", "init"]
+- ["PSo18UIContentContainer", "loadJSON"]
+- !private ["PSo18UIContentContainer", "view"]
+- ["PSo18UIContentContainer", "viewDidLoad"]
+- ["PSo18UIContentContainer", "wordListView"]
+- ["PSo18UIContentContainer", ""]
+- !private ["PSo17UICoordinateSpace", "addSubview"]
+- !private ["PSo17UICoordinateSpace", "dataSource"]
+- !private ["PSo17UICoordinateSpace", "delegate"]
+- !private ["PSo17UICoordinateSpace", "frame"]
+- ["PSo17UICoordinateSpace", "init"]
+- !private ["PSo17UICoordinateSpace", "register"]
+- !private ["PSo13UIDynamicItem", "addSubview"]
+- !private ["PSo13UIDynamicItem", "dataSource"]
+- !private ["PSo13UIDynamicItem", "delegate"]
+- !private ["PSo13UIDynamicItem", "frame"]
+- ["PSo13UIDynamicItem", "init"]
+- !private ["PSo13UIDynamicItem", "register"]
+- !private ["PSo18UIFocusEnvironment", "CGRect"]
+- ["PSo18UIFocusEnvironment", "LoadWordsFromJSON"]
+- !private ["PSo18UIFocusEnvironment", "UINib"]
+- !private ["PSo18UIFocusEnvironment", "UIScreen"]
+- ["PSo18UIFocusEnvironment", "UITableView"]
+- ["PSo18UIFocusEnvironment", "Word"]
+- !private ["PSo18UIFocusEnvironment", "addSubview"]
+- !private ["PSo18UIFocusEnvironment", "dataSource"]
+- !private ["PSo18UIFocusEnvironment", "delegate"]
+- ["PSo18UIFocusEnvironment", "didReceiveMemoryWarning"]
+- ["PSo18UIFocusEnvironment", "englishWords"]
+- !private ["PSo18UIFocusEnvironment", "frame"]
+- ["PSo18UIFocusEnvironment", "init"]
+- ["PSo18UIFocusEnvironment", "loadJSON"]
+- !private ["PSo18UIFocusEnvironment", "register"]
+- !private ["PSo18UIFocusEnvironment", "view"]
+- ["PSo18UIFocusEnvironment", "viewDidLoad"]
+- ["PSo18UIFocusEnvironment", "wordListView"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["PSo11UIFocusItem", "addSubview"]
+- !private ["PSo11UIFocusItem", "dataSource"]
+- !private ["PSo11UIFocusItem", "delegate"]
+- !private ["PSo11UIFocusItem", "frame"]
+- ["PSo11UIFocusItem", "init"]
+- !private ["PSo11UIFocusItem", "register"]
+- ["CSo5UINib", "deinit"]
+- !private ["CSo5UINib", "init"]
+- !private ["CSo11UIResponder", "CGRect"]
+- ["CSo11UIResponder", "LoadWordsFromJSON"]
+- !private ["CSo11UIResponder", "UINib"]
+- !private ["CSo11UIResponder", "UIScreen"]
+- ["CSo11UIResponder", "UITableView"]
+- ["CSo11UIResponder", "Word"]
+- !private ["CSo11UIResponder", "addSubview"]
+- !private ["CSo11UIResponder", "dataSource"]
+- !private ["CSo11UIResponder", "delegate"]
+- ["CSo11UIResponder", "didReceiveMemoryWarning"]
+- ["CSo11UIResponder", "englishWords"]
+- !private ["CSo11UIResponder", "frame"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "loadJSON"]
+- !private ["CSo11UIResponder", "register"]
+- !private ["CSo11UIResponder", "view"]
+- ["CSo11UIResponder", "viewDidLoad"]
+- ["CSo11UIResponder", "wordListView"]
+- !private ["PSo30UIResponderStandardEditActions", "CGRect"]
+- ["PSo30UIResponderStandardEditActions", "LoadWordsFromJSON"]
+- !private ["PSo30UIResponderStandardEditActions", "UINib"]
+- !private ["PSo30UIResponderStandardEditActions", "UIScreen"]
+- ["PSo30UIResponderStandardEditActions", "UITableView"]
+- ["PSo30UIResponderStandardEditActions", "Word"]
+- !private ["PSo30UIResponderStandardEditActions", "addSubview"]
+- !private ["PSo30UIResponderStandardEditActions", "dataSource"]
+- !private ["PSo30UIResponderStandardEditActions", "delegate"]
+- ["PSo30UIResponderStandardEditActions", "didReceiveMemoryWarning"]
+- ["PSo30UIResponderStandardEditActions", "englishWords"]
+- !private ["PSo30UIResponderStandardEditActions", "frame"]
+- ["PSo30UIResponderStandardEditActions", "init"]
+- ["PSo30UIResponderStandardEditActions", "loadJSON"]
+- !private ["PSo30UIResponderStandardEditActions", "register"]
+- !private ["PSo30UIResponderStandardEditActions", "view"]
+- ["PSo30UIResponderStandardEditActions", "viewDidLoad"]
+- ["PSo30UIResponderStandardEditActions", "wordListView"]
+- ["PSo30UIResponderStandardEditActions", ""]
+- !private ["CSo8UIScreen", "bounds"]
+- ["CSo8UIScreen", "deinit"]
+- !private ["CSo8UIScreen", "main"]
+- !private ["CSo12UIScrollView", "dataSource"]
+- !private ["CSo12UIScrollView", "delegate"]
+- !private ["CSo12UIScrollView", "frame"]
+- ["CSo12UIScrollView", "init"]
+- !private ["CSo12UIScrollView", "register"]
+- !private ["PSo20UIScrollViewDelegate", "CGRect"]
+- ["PSo20UIScrollViewDelegate", "LoadWordsFromJSON"]
+- !private ["PSo20UIScrollViewDelegate", "UINib"]
+- !private ["PSo20UIScrollViewDelegate", "UIScreen"]
+- ["PSo20UIScrollViewDelegate", "UITableView"]
+- ["PSo20UIScrollViewDelegate", "Word"]
+- !private ["PSo20UIScrollViewDelegate", "englishWords"]
+- !private ["PSo20UIScrollViewDelegate", "loadJSON"]
+- !private ["PSo20UIScrollViewDelegate", "view"]
+- !private ["PSo20UIScrollViewDelegate", "wordListView"]
+- !private ["PSo16UIStateRestoring", "CGRect"]
+- ["PSo16UIStateRestoring", "LoadWordsFromJSON"]
+- !private ["PSo16UIStateRestoring", "UINib"]
+- !private ["PSo16UIStateRestoring", "UIScreen"]
+- ["PSo16UIStateRestoring", "UITableView"]
+- ["PSo16UIStateRestoring", "Word"]
+- ["PSo16UIStateRestoring", "didReceiveMemoryWarning"]
+- ["PSo16UIStateRestoring", "englishWords"]
+- !private ["PSo16UIStateRestoring", "init"]
+- ["PSo16UIStateRestoring", "loadJSON"]
+- !private ["PSo16UIStateRestoring", "view"]
+- ["PSo16UIStateRestoring", "viewDidLoad"]
+- ["PSo16UIStateRestoring", "wordListView"]
+- ["PSo16UIStateRestoring", ""]
+- !private ["CSo11UITableView", "dataSource"]
+- ["CSo11UITableView", "deinit"]
+- !private ["CSo11UITableView", "delegate"]
+- !private ["CSo11UITableView", "frame"]
+- ["CSo11UITableView", "init"]
+- !private ["CSo11UITableView", "register"]
+- !private ["PSo21UITableViewDataSource", "CGRect"]
+- ["PSo21UITableViewDataSource", "LoadWordsFromJSON"]
+- !private ["PSo21UITableViewDataSource", "UINib"]
+- !private ["PSo21UITableViewDataSource", "UIScreen"]
+- ["PSo21UITableViewDataSource", "UITableView"]
+- ["PSo21UITableViewDataSource", "Word"]
+- !private ["PSo21UITableViewDataSource", "englishWords"]
+- !private ["PSo21UITableViewDataSource", "loadJSON"]
+- !private ["PSo21UITableViewDataSource", "view"]
+- !private ["PSo21UITableViewDataSource", "wordListView"]
+- !private ["PSo19UITableViewDelegate", "CGRect"]
+- ["PSo19UITableViewDelegate", "LoadWordsFromJSON"]
+- !private ["PSo19UITableViewDelegate", "UINib"]
+- !private ["PSo19UITableViewDelegate", "UIScreen"]
+- ["PSo19UITableViewDelegate", "UITableView"]
+- ["PSo19UITableViewDelegate", "Word"]
+- !private ["PSo19UITableViewDelegate", "englishWords"]
+- !private ["PSo19UITableViewDelegate", "loadJSON"]
+- !private ["PSo19UITableViewDelegate", "view"]
+- !private ["PSo19UITableViewDelegate", "wordListView"]
+- !private ["PSo18UITraitEnvironment", "CGRect"]
+- ["PSo18UITraitEnvironment", "LoadWordsFromJSON"]
+- !private ["PSo18UITraitEnvironment", "UINib"]
+- !private ["PSo18UITraitEnvironment", "UIScreen"]
+- ["PSo18UITraitEnvironment", "UITableView"]
+- ["PSo18UITraitEnvironment", "Word"]
+- !private ["PSo18UITraitEnvironment", "addSubview"]
+- !private ["PSo18UITraitEnvironment", "bounds"]
+- !private ["PSo18UITraitEnvironment", "dataSource"]
+- !private ["PSo18UITraitEnvironment", "delegate"]
+- ["PSo18UITraitEnvironment", "didReceiveMemoryWarning"]
+- ["PSo18UITraitEnvironment", "englishWords"]
+- !private ["PSo18UITraitEnvironment", "frame"]
+- ["PSo18UITraitEnvironment", "init"]
+- ["PSo18UITraitEnvironment", "loadJSON"]
+- !private ["PSo18UITraitEnvironment", "main"]
+- !private ["PSo18UITraitEnvironment", "register"]
+- !private ["PSo18UITraitEnvironment", "view"]
+- ["PSo18UITraitEnvironment", "viewDidLoad"]
+- ["PSo18UITraitEnvironment", "wordListView"]
+- ["PSo18UITraitEnvironment", ""]
+- !private ["CSo6UIView", "addSubview"]
+- !private ["CSo6UIView", "dataSource"]
+- !private ["CSo6UIView", "delegate"]
+- !private ["CSo6UIView", "frame"]
+- ["CSo6UIView", "init"]
+- !private ["CSo6UIView", "register"]
+- !private ["CSo16UIViewController", "CGRect"]
+- ["CSo16UIViewController", "LoadWordsFromJSON"]
+- !private ["CSo16UIViewController", "UINib"]
+- !private ["CSo16UIViewController", "UIScreen"]
+- ["CSo16UIViewController", "UITableView"]
+- ["CSo16UIViewController", "Word"]
+- ["CSo16UIViewController", "deinit"]
+- ["CSo16UIViewController", "didReceiveMemoryWarning"]
+- ["CSo16UIViewController", "englishWords"]
+- ["CSo16UIViewController", "init"]
+- ["CSo16UIViewController", "loadJSON"]
+- !private ["CSo16UIViewController", "view"]
+- ["CSo16UIViewController", "viewDidLoad"]
+- ["CSo16UIViewController", "wordListView"]
+- ["CSo16UIViewController", ""]
+- !private ["C16QuizEnglishWords22WordListViewController", "CGRect"]
+- ["C16QuizEnglishWords22WordListViewController", "LoadWordsFromJSON"]
+- !private ["C16QuizEnglishWords22WordListViewController", "UINib"]
+- !private ["C16QuizEnglishWords22WordListViewController", "UIScreen"]
+- ["C16QuizEnglishWords22WordListViewController", "UITableView"]
+- ["C16QuizEnglishWords22WordListViewController", "Word"]
+- ["C16QuizEnglishWords22WordListViewController", "deinit"]
+- ["C16QuizEnglishWords22WordListViewController", "didReceiveMemoryWarning"]
+- ["C16QuizEnglishWords22WordListViewController", "englishWords"]
+- ["C16QuizEnglishWords22WordListViewController", "init"]
+- ["C16QuizEnglishWords22WordListViewController", "loadJSON"]
+- !private ["C16QuizEnglishWords22WordListViewController", "view"]
+- ["C16QuizEnglishWords22WordListViewController", "viewDidLoad"]
+- ["C16QuizEnglishWords22WordListViewController", "wordListView"]
+- ["Ps14_ArrayProtocol", "init"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "addSubview"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "dataSource"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "delegate"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "frame"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "init"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "register"]
+- ["Ps24_DestructorSafeContainer", "init"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "CGRect"]
+- ["Ps9_Hashable", "LoadWordsFromJSON"]
+- !private ["Ps9_Hashable", "UINib"]
+- !private ["Ps9_Hashable", "UIScreen"]
+- ["Ps9_Hashable", "UITableView"]
+- ["Ps9_Hashable", "Word"]
+- !private ["Ps9_Hashable", "addSubview"]
+- !private ["Ps9_Hashable", "bounds"]
+- !private ["Ps9_Hashable", "dataSource"]
+- !private ["Ps9_Hashable", "delegate"]
+- ["Ps9_Hashable", "didReceiveMemoryWarning"]
+- ["Ps9_Hashable", "englishWords"]
+- !private ["Ps9_Hashable", "frame"]
+- ["Ps9_Hashable", "init"]
+- ["Ps9_Hashable", "loadJSON"]
+- !private ["Ps9_Hashable", "main"]
+- !private ["Ps9_Hashable", "register"]
+- !private ["Ps9_Hashable", "view"]
+- ["Ps9_Hashable", "viewDidLoad"]
+- ["Ps9_Hashable", "wordListView"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps21_ObjectiveCBridgeable", "height"]
+- ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "size"]
+- !private ["Ps21_ObjectiveCBridgeable", "width"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Sa"
+- "Ps23BidirectionalCollection"
+- "Ps22BidirectionalIndexable"
+- "PSo15CALayerDelegate"
+- "V12CoreGraphics7CGFloat"
+- "VSC6CGRect"
+- "VSC6CGSize"
+- "Ps7CVarArg"
+- "Ps10Collection"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps25ExpressibleByArrayLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps32ExpressibleByStringInterpolation"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- "Ps9Indexable"
+- "Ps13IndexableBase"
+- !private "P10SwiftyJSON17JSONSubscriptType"
+- "C16QuizEnglishWords17LoadWordsFromJSON"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- "Ps17MutableCollection"
+- "Ps16MutableIndexable"
+- "CSo7NSCoder"
+- "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- "PSo26NSExtensionRequestHandling"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- "Sq"
+- "Ps22RandomAccessCollection"
+- "Ps21RandomAccessIndexable"
+- "Ps26RangeReplaceableCollection"
+- "Ps25RangeReplaceableIndexable"
+- "Ps8Sequence"
+- "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- "PSo29UIAccessibilityIdentification"
+- "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "PSo18UIContentContainer"
+- "PSo17UICoordinateSpace"
+- "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- "PSo11UIFocusItem"
+- "CSo5UINib"
+- "CSo11UIResponder"
+- "PSo30UIResponderStandardEditActions"
+- "CSo8UIScreen"
+- "CSo12UIScrollView"
+- "PSo20UIScrollViewDelegate"
+- "PSo16UIStateRestoring"
+- "CSo11UITableView"
+- "PSo21UITableViewDataSource"
+- "PSo19UITableViewDelegate"
+- "PSo18UITraitEnvironment"
+- "CSo6UIView"
+- "CSo16UIViewController"
+- "C16QuizEnglishWords22WordListViewController"
+- "Ps14_ArrayProtocol"
+- "Ps37_DefaultCustomPlaygroundQuickLookable"
+- "Ps24_DestructorSafeContainer"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/QuizEnglishWords/QuizEnglishWords-Bridging-Header.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/FlatUIKit/FlatUIKit.framework/Headers/UIPopoverController+FlatUI.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/FlatUIKit/FlatUIKit.framework/Headers/NSString+Icons.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/FlatUIKit/FlatUIKit.framework/Headers/FUIPopoverBackgroundView.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/FlatUIKit/FlatUIKit.framework/Headers/UIToolbar+FlatUI.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/FlatUIKit/FlatUIKit.framework/Headers/UITableViewCell+FlatUI.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/FlatUIKit/FlatUIKit.framework/Headers/UITabBar+FlatUI.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/FlatUIKit/FlatUIKit.framework/Headers/UISlider+FlatUI.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/FlatUIKit/FlatUIKit.framework/Headers/UIStepper+FlatUI.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/FlatUIKit/FlatUIKit.framework/Headers/UIProgressView+FlatUI.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/FlatUIKit/FlatUIKit.framework/Headers/UINavigationBar+FlatUI.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/FlatUIKit/FlatUIKit.framework/Headers/UIImage+FlatUI.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/FlatUIKit/FlatUIKit.framework/Headers/UIFont+FlatUI.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/FlatUIKit/FlatUIKit.framework/Headers/UIColor+FlatUI.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/FlatUIKit/FlatUIKit.framework/Headers/UIBarButtonItem+FlatUI.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/FlatUIKit/FlatUIKit.framework/Headers/FUISwitch.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/FlatUIKit/FlatUIKit.framework/Headers/FUISegmentedControl.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/FlatUIKit/FlatUIKit.framework/Headers/FUICellBackgroundView.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/FlatUIKit/FlatUIKit.framework/Headers/FUIButton.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/FlatUIKit/FlatUIKit.framework/Headers/FUITextField.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/FlatUIKit/FlatUIKit.framework/Headers/FUIAlertView.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/FlatUIKit/FlatUIKit.framework/Headers/FlatUIKit.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/FlatUIKit/FlatUIKit.framework/Headers/FlatUIKit-umbrella.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/FlatUIKit/FlatUIKit.framework/Modules/module.modulemap"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Modules/RealmSwift.swiftmodule/x86_64.swiftmodule"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealm_Dynamic.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMSyncUtil_Private.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMSyncConfiguration_Private.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMSchema_Private.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMResults_Private.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMRealm_Private.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMRealmConfiguration_Private.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMProperty_Private.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMOptionalBase.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMObject_Private.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMObjectStore.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMObjectSchema_Private.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObjectBase_Dynamic.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMListBase.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMArray_Private.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMAccessor.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncUser.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncSession.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncPermissionChange.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncManager.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncCredentials.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncConfiguration.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSchema.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMResults.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncUtil.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealmConfiguration+Sync.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealmConfiguration.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealm.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMConstants.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMProperty.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMPlatform.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObjectSchema.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObjectBase.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObject.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMMigration.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMCollection.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMArray.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/Realm.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Modules/module.modulemap"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Headers/RealmSwift-Swift.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Headers/RealmSwift-umbrella.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Modules/module.modulemap"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/SwiftyJSON.swiftmodule/x86_64.swiftmodule"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-umbrella.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/module.modulemap"
+interface-hash: "ac551766ab0b674b08a62b9110790a64"

@@ -1,0 +1,658 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MainViewController"
+provides-nominal:
+- "C16QuizEnglishWords18MainViewController"
+provides-member:
+- ["C16QuizEnglishWords18MainViewController", ""]
+- ["C16QuizEnglishWords18MainViewController", "setUpButton"]
+- ["C16QuizEnglishWords18MainViewController", "moveWordListView"]
+provides-dynamic-lookup:
+- "missListBtm"
+- "viewDidLoad"
+- "moveWordListView"
+- "testBtm"
+- "didReceiveMemoryWarning"
+- "listBtm"
+- "setUpButton"
+depends-top-level:
+- "MainViewController"
+- !private "BooleanLiteralType"
+- !private "CreateFlatButton"
+- !private "UIColor"
+- "FUIButton"
+- !private "Construct"
+- !private "WordListViewController"
+- "AssignmentPrecedence"
+- "UIViewController"
+depends-member:
+- !private ["Ps9AnyObject", "Construct"]
+- !private ["Ps9AnyObject", "CreateFlatButton"]
+- !private ["Ps9AnyObject", "MainViewController"]
+- !private ["Ps9AnyObject", "UIColor"]
+- !private ["Ps9AnyObject", "WordListViewController"]
+- !private ["Ps9AnyObject", "addTarget"]
+- !private ["Ps9AnyObject", "amethyst"]
+- !private ["Ps9AnyObject", "carrot"]
+- !private ["Ps9AnyObject", "create"]
+- ["Ps9AnyObject", "didReceiveMemoryWarning"]
+- !private ["Ps9AnyObject", "emerland"]
+- !private ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "listBtm"]
+- ["Ps9AnyObject", "missListBtm"]
+- ["Ps9AnyObject", "moveWordListView"]
+- !private ["Ps9AnyObject", "navigationController"]
+- !private ["Ps9AnyObject", "navigationItem"]
+- !private ["Ps9AnyObject", "nephritis"]
+- !private ["Ps9AnyObject", "pumpkin"]
+- !private ["Ps9AnyObject", "pushViewController"]
+- ["Ps9AnyObject", "setUpButton"]
+- ["Ps9AnyObject", "testBtm"]
+- !private ["Ps9AnyObject", "title"]
+- ["Ps9AnyObject", "viewDidLoad"]
+- !private ["Ps9AnyObject", "wisteria"]
+- ["Ps9AnyObject", ""]
+- ["Sb", "deinit"]
+- !private ["PSo15CALayerDelegate", "addTarget"]
+- !private ["Ps7CVarArg", "Construct"]
+- !private ["Ps7CVarArg", "CreateFlatButton"]
+- !private ["Ps7CVarArg", "MainViewController"]
+- !private ["Ps7CVarArg", "UIColor"]
+- !private ["Ps7CVarArg", "WordListViewController"]
+- !private ["Ps7CVarArg", "addTarget"]
+- !private ["Ps7CVarArg", "amethyst"]
+- !private ["Ps7CVarArg", "carrot"]
+- ["Ps7CVarArg", "didReceiveMemoryWarning"]
+- !private ["Ps7CVarArg", "emerland"]
+- !private ["Ps7CVarArg", "init"]
+- ["Ps7CVarArg", "listBtm"]
+- ["Ps7CVarArg", "missListBtm"]
+- ["Ps7CVarArg", "moveWordListView"]
+- !private ["Ps7CVarArg", "navigationController"]
+- !private ["Ps7CVarArg", "navigationItem"]
+- !private ["Ps7CVarArg", "nephritis"]
+- !private ["Ps7CVarArg", "pumpkin"]
+- !private ["Ps7CVarArg", "pushViewController"]
+- ["Ps7CVarArg", "setUpButton"]
+- ["Ps7CVarArg", "testBtm"]
+- !private ["Ps7CVarArg", "title"]
+- ["Ps7CVarArg", "viewDidLoad"]
+- !private ["Ps7CVarArg", "wisteria"]
+- ["Ps7CVarArg", ""]
+- !private ["V16QuizEnglishWords9Construct", "navigationTitle"]
+- !private ["V16QuizEnglishWords9Construct", "testTitle"]
+- !private ["V16QuizEnglishWords9Construct", "wordListTitle"]
+- !private ["V16QuizEnglishWords9Construct", "wrongListTitle"]
+- !private ["C16QuizEnglishWords16CreateFlatButton", "create"]
+- !private ["Ps28CustomDebugStringConvertible", "Construct"]
+- !private ["Ps28CustomDebugStringConvertible", "CreateFlatButton"]
+- !private ["Ps28CustomDebugStringConvertible", "MainViewController"]
+- !private ["Ps28CustomDebugStringConvertible", "UIColor"]
+- !private ["Ps28CustomDebugStringConvertible", "WordListViewController"]
+- !private ["Ps28CustomDebugStringConvertible", "addTarget"]
+- !private ["Ps28CustomDebugStringConvertible", "amethyst"]
+- !private ["Ps28CustomDebugStringConvertible", "carrot"]
+- ["Ps28CustomDebugStringConvertible", "didReceiveMemoryWarning"]
+- !private ["Ps28CustomDebugStringConvertible", "emerland"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "listBtm"]
+- ["Ps28CustomDebugStringConvertible", "missListBtm"]
+- ["Ps28CustomDebugStringConvertible", "moveWordListView"]
+- !private ["Ps28CustomDebugStringConvertible", "navigationController"]
+- !private ["Ps28CustomDebugStringConvertible", "navigationItem"]
+- !private ["Ps28CustomDebugStringConvertible", "nephritis"]
+- !private ["Ps28CustomDebugStringConvertible", "pumpkin"]
+- !private ["Ps28CustomDebugStringConvertible", "pushViewController"]
+- ["Ps28CustomDebugStringConvertible", "setUpButton"]
+- ["Ps28CustomDebugStringConvertible", "testBtm"]
+- !private ["Ps28CustomDebugStringConvertible", "title"]
+- ["Ps28CustomDebugStringConvertible", "viewDidLoad"]
+- !private ["Ps28CustomDebugStringConvertible", "wisteria"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps23CustomStringConvertible", "Construct"]
+- !private ["Ps23CustomStringConvertible", "CreateFlatButton"]
+- !private ["Ps23CustomStringConvertible", "MainViewController"]
+- !private ["Ps23CustomStringConvertible", "UIColor"]
+- !private ["Ps23CustomStringConvertible", "WordListViewController"]
+- !private ["Ps23CustomStringConvertible", "addTarget"]
+- !private ["Ps23CustomStringConvertible", "amethyst"]
+- !private ["Ps23CustomStringConvertible", "carrot"]
+- ["Ps23CustomStringConvertible", "didReceiveMemoryWarning"]
+- !private ["Ps23CustomStringConvertible", "emerland"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "listBtm"]
+- ["Ps23CustomStringConvertible", "missListBtm"]
+- ["Ps23CustomStringConvertible", "moveWordListView"]
+- !private ["Ps23CustomStringConvertible", "navigationController"]
+- !private ["Ps23CustomStringConvertible", "navigationItem"]
+- !private ["Ps23CustomStringConvertible", "nephritis"]
+- !private ["Ps23CustomStringConvertible", "pumpkin"]
+- !private ["Ps23CustomStringConvertible", "pushViewController"]
+- ["Ps23CustomStringConvertible", "setUpButton"]
+- ["Ps23CustomStringConvertible", "testBtm"]
+- !private ["Ps23CustomStringConvertible", "title"]
+- ["Ps23CustomStringConvertible", "viewDidLoad"]
+- !private ["Ps23CustomStringConvertible", "wisteria"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "Construct"]
+- !private ["Ps9Equatable", "CreateFlatButton"]
+- !private ["Ps9Equatable", "MainViewController"]
+- !private ["Ps9Equatable", "UIColor"]
+- !private ["Ps9Equatable", "WordListViewController"]
+- !private ["Ps9Equatable", "addTarget"]
+- !private ["Ps9Equatable", "amethyst"]
+- !private ["Ps9Equatable", "carrot"]
+- ["Ps9Equatable", "didReceiveMemoryWarning"]
+- !private ["Ps9Equatable", "emerland"]
+- !private ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "listBtm"]
+- ["Ps9Equatable", "missListBtm"]
+- ["Ps9Equatable", "moveWordListView"]
+- !private ["Ps9Equatable", "navigationController"]
+- !private ["Ps9Equatable", "navigationItem"]
+- !private ["Ps9Equatable", "nephritis"]
+- !private ["Ps9Equatable", "pumpkin"]
+- !private ["Ps9Equatable", "pushViewController"]
+- ["Ps9Equatable", "setUpButton"]
+- ["Ps9Equatable", "testBtm"]
+- !private ["Ps9Equatable", "title"]
+- !private ["Ps9Equatable", "touchUpInside"]
+- ["Ps9Equatable", "viewDidLoad"]
+- !private ["Ps9Equatable", "wisteria"]
+- ["Ps9Equatable", ""]
+- !private ["Ps25ExpressibleByArrayLiteral", "touchUpInside"]
+- !private ["CSo9FUIButton", "addTarget"]
+- ["CSo9FUIButton", "deinit"]
+- !private ["Ps8Hashable", "Construct"]
+- !private ["Ps8Hashable", "CreateFlatButton"]
+- !private ["Ps8Hashable", "MainViewController"]
+- !private ["Ps8Hashable", "UIColor"]
+- !private ["Ps8Hashable", "WordListViewController"]
+- !private ["Ps8Hashable", "addTarget"]
+- !private ["Ps8Hashable", "amethyst"]
+- !private ["Ps8Hashable", "carrot"]
+- ["Ps8Hashable", "didReceiveMemoryWarning"]
+- !private ["Ps8Hashable", "emerland"]
+- !private ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "listBtm"]
+- ["Ps8Hashable", "missListBtm"]
+- ["Ps8Hashable", "moveWordListView"]
+- !private ["Ps8Hashable", "navigationController"]
+- !private ["Ps8Hashable", "navigationItem"]
+- !private ["Ps8Hashable", "nephritis"]
+- !private ["Ps8Hashable", "pumpkin"]
+- !private ["Ps8Hashable", "pushViewController"]
+- ["Ps8Hashable", "setUpButton"]
+- ["Ps8Hashable", "testBtm"]
+- !private ["Ps8Hashable", "title"]
+- ["Ps8Hashable", "viewDidLoad"]
+- !private ["Ps8Hashable", "wisteria"]
+- ["Ps8Hashable", ""]
+- ["SQ", "deinit"]
+- !private ["C16QuizEnglishWords18MainViewController", "Construct"]
+- !private ["C16QuizEnglishWords18MainViewController", "CreateFlatButton"]
+- ["C16QuizEnglishWords18MainViewController", "FUIButton"]
+- !private ["C16QuizEnglishWords18MainViewController", "MainViewController"]
+- !private ["C16QuizEnglishWords18MainViewController", "UIColor"]
+- !private ["C16QuizEnglishWords18MainViewController", "WordListViewController"]
+- ["C16QuizEnglishWords18MainViewController", "deinit"]
+- ["C16QuizEnglishWords18MainViewController", "didReceiveMemoryWarning"]
+- ["C16QuizEnglishWords18MainViewController", "init"]
+- ["C16QuizEnglishWords18MainViewController", "listBtm"]
+- ["C16QuizEnglishWords18MainViewController", "missListBtm"]
+- ["C16QuizEnglishWords18MainViewController", "moveWordListView"]
+- !private ["C16QuizEnglishWords18MainViewController", "navigationController"]
+- !private ["C16QuizEnglishWords18MainViewController", "navigationItem"]
+- ["C16QuizEnglishWords18MainViewController", "setUpButton"]
+- ["C16QuizEnglishWords18MainViewController", "testBtm"]
+- ["C16QuizEnglishWords18MainViewController", "viewDidLoad"]
+- ["CSo7NSCoder", "deinit"]
+- !private ["PSo8NSCoding", "Construct"]
+- !private ["PSo8NSCoding", "CreateFlatButton"]
+- !private ["PSo8NSCoding", "MainViewController"]
+- !private ["PSo8NSCoding", "UIColor"]
+- !private ["PSo8NSCoding", "WordListViewController"]
+- !private ["PSo8NSCoding", "addTarget"]
+- !private ["PSo8NSCoding", "amethyst"]
+- !private ["PSo8NSCoding", "carrot"]
+- ["PSo8NSCoding", "didReceiveMemoryWarning"]
+- !private ["PSo8NSCoding", "emerland"]
+- !private ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", "listBtm"]
+- ["PSo8NSCoding", "missListBtm"]
+- ["PSo8NSCoding", "moveWordListView"]
+- !private ["PSo8NSCoding", "navigationController"]
+- !private ["PSo8NSCoding", "navigationItem"]
+- !private ["PSo8NSCoding", "nephritis"]
+- !private ["PSo8NSCoding", "pumpkin"]
+- !private ["PSo8NSCoding", "pushViewController"]
+- ["PSo8NSCoding", "setUpButton"]
+- ["PSo8NSCoding", "testBtm"]
+- !private ["PSo8NSCoding", "title"]
+- ["PSo8NSCoding", "viewDidLoad"]
+- !private ["PSo8NSCoding", "wisteria"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "amethyst"]
+- !private ["PSo9NSCopying", "carrot"]
+- !private ["PSo9NSCopying", "emerland"]
+- !private ["PSo9NSCopying", "nephritis"]
+- !private ["PSo9NSCopying", "pumpkin"]
+- !private ["PSo9NSCopying", "wisteria"]
+- !private ["PSo26NSExtensionRequestHandling", "Construct"]
+- !private ["PSo26NSExtensionRequestHandling", "CreateFlatButton"]
+- !private ["PSo26NSExtensionRequestHandling", "MainViewController"]
+- !private ["PSo26NSExtensionRequestHandling", "UIColor"]
+- !private ["PSo26NSExtensionRequestHandling", "WordListViewController"]
+- ["PSo26NSExtensionRequestHandling", "didReceiveMemoryWarning"]
+- !private ["PSo26NSExtensionRequestHandling", "init"]
+- ["PSo26NSExtensionRequestHandling", "listBtm"]
+- ["PSo26NSExtensionRequestHandling", "missListBtm"]
+- ["PSo26NSExtensionRequestHandling", "moveWordListView"]
+- !private ["PSo26NSExtensionRequestHandling", "navigationController"]
+- !private ["PSo26NSExtensionRequestHandling", "navigationItem"]
+- !private ["PSo26NSExtensionRequestHandling", "pushViewController"]
+- ["PSo26NSExtensionRequestHandling", "setUpButton"]
+- ["PSo26NSExtensionRequestHandling", "testBtm"]
+- ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- !private ["CSo8NSObject", "Construct"]
+- !private ["CSo8NSObject", "CreateFlatButton"]
+- ["CSo8NSObject", "FUIButton"]
+- !private ["CSo8NSObject", "MainViewController"]
+- !private ["CSo8NSObject", "UIColor"]
+- !private ["CSo8NSObject", "WordListViewController"]
+- !private ["CSo8NSObject", "addTarget"]
+- !private ["CSo8NSObject", "amethyst"]
+- !private ["CSo8NSObject", "carrot"]
+- ["CSo8NSObject", "didReceiveMemoryWarning"]
+- !private ["CSo8NSObject", "emerland"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "listBtm"]
+- ["CSo8NSObject", "missListBtm"]
+- ["CSo8NSObject", "moveWordListView"]
+- !private ["CSo8NSObject", "navigationController"]
+- !private ["CSo8NSObject", "navigationItem"]
+- !private ["CSo8NSObject", "nephritis"]
+- !private ["CSo8NSObject", "pumpkin"]
+- !private ["CSo8NSObject", "pushViewController"]
+- ["CSo8NSObject", "setUpButton"]
+- ["CSo8NSObject", "testBtm"]
+- !private ["CSo8NSObject", "title"]
+- ["CSo8NSObject", "viewDidLoad"]
+- !private ["CSo8NSObject", "wisteria"]
+- !private ["PSo16NSObjectProtocol", "Construct"]
+- !private ["PSo16NSObjectProtocol", "CreateFlatButton"]
+- !private ["PSo16NSObjectProtocol", "MainViewController"]
+- !private ["PSo16NSObjectProtocol", "UIColor"]
+- !private ["PSo16NSObjectProtocol", "WordListViewController"]
+- !private ["PSo16NSObjectProtocol", "addTarget"]
+- !private ["PSo16NSObjectProtocol", "amethyst"]
+- !private ["PSo16NSObjectProtocol", "carrot"]
+- ["PSo16NSObjectProtocol", "didReceiveMemoryWarning"]
+- !private ["PSo16NSObjectProtocol", "emerland"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "listBtm"]
+- ["PSo16NSObjectProtocol", "missListBtm"]
+- ["PSo16NSObjectProtocol", "moveWordListView"]
+- !private ["PSo16NSObjectProtocol", "navigationController"]
+- !private ["PSo16NSObjectProtocol", "navigationItem"]
+- !private ["PSo16NSObjectProtocol", "nephritis"]
+- !private ["PSo16NSObjectProtocol", "pumpkin"]
+- !private ["PSo16NSObjectProtocol", "pushViewController"]
+- ["PSo16NSObjectProtocol", "setUpButton"]
+- ["PSo16NSObjectProtocol", "testBtm"]
+- !private ["PSo16NSObjectProtocol", "title"]
+- ["PSo16NSObjectProtocol", "viewDidLoad"]
+- !private ["PSo16NSObjectProtocol", "wisteria"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "amethyst"]
+- !private ["PSo14NSSecureCoding", "carrot"]
+- !private ["PSo14NSSecureCoding", "emerland"]
+- !private ["PSo14NSSecureCoding", "nephritis"]
+- !private ["PSo14NSSecureCoding", "pumpkin"]
+- !private ["PSo14NSSecureCoding", "wisteria"]
+- !private ["Ps9OptionSet", "touchUpInside"]
+- ["Sq", "deinit"]
+- !private ["Ps16RawRepresentable", "touchUpInside"]
+- ["V10ObjectiveC8Selector", "deinit"]
+- !private ["Ps10SetAlgebra", "touchUpInside"]
+- ["SS", "deinit"]
+- !private ["PSo29UIAccessibilityIdentification", "addTarget"]
+- !private ["PSo12UIAppearance", "addTarget"]
+- !private ["PSo21UIAppearanceContainer", "Construct"]
+- !private ["PSo21UIAppearanceContainer", "CreateFlatButton"]
+- !private ["PSo21UIAppearanceContainer", "MainViewController"]
+- !private ["PSo21UIAppearanceContainer", "UIColor"]
+- !private ["PSo21UIAppearanceContainer", "WordListViewController"]
+- !private ["PSo21UIAppearanceContainer", "addTarget"]
+- ["PSo21UIAppearanceContainer", "didReceiveMemoryWarning"]
+- !private ["PSo21UIAppearanceContainer", "init"]
+- ["PSo21UIAppearanceContainer", "listBtm"]
+- ["PSo21UIAppearanceContainer", "missListBtm"]
+- ["PSo21UIAppearanceContainer", "moveWordListView"]
+- !private ["PSo21UIAppearanceContainer", "navigationController"]
+- !private ["PSo21UIAppearanceContainer", "navigationItem"]
+- !private ["PSo21UIAppearanceContainer", "pushViewController"]
+- ["PSo21UIAppearanceContainer", "setUpButton"]
+- ["PSo21UIAppearanceContainer", "testBtm"]
+- ["PSo21UIAppearanceContainer", "viewDidLoad"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["CSo8UIButton", "addTarget"]
+- !private ["CSo7UIColor", "amethyst"]
+- !private ["CSo7UIColor", "carrot"]
+- !private ["CSo7UIColor", "emerland"]
+- !private ["CSo7UIColor", "nephritis"]
+- !private ["CSo7UIColor", "pumpkin"]
+- !private ["CSo7UIColor", "wisteria"]
+- !private ["PSo18UIContentContainer", "Construct"]
+- !private ["PSo18UIContentContainer", "CreateFlatButton"]
+- !private ["PSo18UIContentContainer", "MainViewController"]
+- !private ["PSo18UIContentContainer", "UIColor"]
+- !private ["PSo18UIContentContainer", "WordListViewController"]
+- ["PSo18UIContentContainer", "didReceiveMemoryWarning"]
+- !private ["PSo18UIContentContainer", "init"]
+- ["PSo18UIContentContainer", "listBtm"]
+- ["PSo18UIContentContainer", "missListBtm"]
+- ["PSo18UIContentContainer", "moveWordListView"]
+- !private ["PSo18UIContentContainer", "navigationController"]
+- !private ["PSo18UIContentContainer", "navigationItem"]
+- !private ["PSo18UIContentContainer", "pushViewController"]
+- ["PSo18UIContentContainer", "setUpButton"]
+- ["PSo18UIContentContainer", "testBtm"]
+- ["PSo18UIContentContainer", "viewDidLoad"]
+- ["PSo18UIContentContainer", ""]
+- !private ["CSo9UIControl", "addTarget"]
+- ["VSC15UIControlEvents", "deinit"]
+- !private ["VSC15UIControlEvents", "touchUpInside"]
+- !private ["PSo17UICoordinateSpace", "addTarget"]
+- !private ["PSo13UIDynamicItem", "addTarget"]
+- !private ["PSo18UIFocusEnvironment", "Construct"]
+- !private ["PSo18UIFocusEnvironment", "CreateFlatButton"]
+- !private ["PSo18UIFocusEnvironment", "MainViewController"]
+- !private ["PSo18UIFocusEnvironment", "UIColor"]
+- !private ["PSo18UIFocusEnvironment", "WordListViewController"]
+- !private ["PSo18UIFocusEnvironment", "addTarget"]
+- ["PSo18UIFocusEnvironment", "didReceiveMemoryWarning"]
+- !private ["PSo18UIFocusEnvironment", "init"]
+- ["PSo18UIFocusEnvironment", "listBtm"]
+- ["PSo18UIFocusEnvironment", "missListBtm"]
+- ["PSo18UIFocusEnvironment", "moveWordListView"]
+- !private ["PSo18UIFocusEnvironment", "navigationController"]
+- !private ["PSo18UIFocusEnvironment", "navigationItem"]
+- !private ["PSo18UIFocusEnvironment", "pushViewController"]
+- ["PSo18UIFocusEnvironment", "setUpButton"]
+- ["PSo18UIFocusEnvironment", "testBtm"]
+- ["PSo18UIFocusEnvironment", "viewDidLoad"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["PSo11UIFocusItem", "addTarget"]
+- ["CSo22UINavigationController", "deinit"]
+- !private ["CSo22UINavigationController", "pushViewController"]
+- ["CSo16UINavigationItem", "deinit"]
+- !private ["CSo16UINavigationItem", "title"]
+- !private ["CSo11UIResponder", "Construct"]
+- !private ["CSo11UIResponder", "CreateFlatButton"]
+- ["CSo11UIResponder", "FUIButton"]
+- !private ["CSo11UIResponder", "MainViewController"]
+- !private ["CSo11UIResponder", "UIColor"]
+- !private ["CSo11UIResponder", "WordListViewController"]
+- !private ["CSo11UIResponder", "addTarget"]
+- ["CSo11UIResponder", "didReceiveMemoryWarning"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "listBtm"]
+- ["CSo11UIResponder", "missListBtm"]
+- ["CSo11UIResponder", "moveWordListView"]
+- !private ["CSo11UIResponder", "navigationController"]
+- !private ["CSo11UIResponder", "navigationItem"]
+- !private ["CSo11UIResponder", "pushViewController"]
+- ["CSo11UIResponder", "setUpButton"]
+- ["CSo11UIResponder", "testBtm"]
+- ["CSo11UIResponder", "viewDidLoad"]
+- !private ["PSo30UIResponderStandardEditActions", "Construct"]
+- !private ["PSo30UIResponderStandardEditActions", "CreateFlatButton"]
+- !private ["PSo30UIResponderStandardEditActions", "MainViewController"]
+- !private ["PSo30UIResponderStandardEditActions", "UIColor"]
+- !private ["PSo30UIResponderStandardEditActions", "WordListViewController"]
+- !private ["PSo30UIResponderStandardEditActions", "addTarget"]
+- ["PSo30UIResponderStandardEditActions", "didReceiveMemoryWarning"]
+- !private ["PSo30UIResponderStandardEditActions", "init"]
+- ["PSo30UIResponderStandardEditActions", "listBtm"]
+- ["PSo30UIResponderStandardEditActions", "missListBtm"]
+- ["PSo30UIResponderStandardEditActions", "moveWordListView"]
+- !private ["PSo30UIResponderStandardEditActions", "navigationController"]
+- !private ["PSo30UIResponderStandardEditActions", "navigationItem"]
+- !private ["PSo30UIResponderStandardEditActions", "pushViewController"]
+- ["PSo30UIResponderStandardEditActions", "setUpButton"]
+- ["PSo30UIResponderStandardEditActions", "testBtm"]
+- ["PSo30UIResponderStandardEditActions", "viewDidLoad"]
+- ["PSo30UIResponderStandardEditActions", ""]
+- !private ["PSo20UIScrollViewDelegate", "init"]
+- !private ["PSo16UIStateRestoring", "Construct"]
+- !private ["PSo16UIStateRestoring", "CreateFlatButton"]
+- !private ["PSo16UIStateRestoring", "MainViewController"]
+- !private ["PSo16UIStateRestoring", "UIColor"]
+- !private ["PSo16UIStateRestoring", "WordListViewController"]
+- ["PSo16UIStateRestoring", "didReceiveMemoryWarning"]
+- !private ["PSo16UIStateRestoring", "init"]
+- ["PSo16UIStateRestoring", "listBtm"]
+- ["PSo16UIStateRestoring", "missListBtm"]
+- ["PSo16UIStateRestoring", "moveWordListView"]
+- !private ["PSo16UIStateRestoring", "navigationController"]
+- !private ["PSo16UIStateRestoring", "navigationItem"]
+- !private ["PSo16UIStateRestoring", "pushViewController"]
+- ["PSo16UIStateRestoring", "setUpButton"]
+- ["PSo16UIStateRestoring", "testBtm"]
+- ["PSo16UIStateRestoring", "viewDidLoad"]
+- ["PSo16UIStateRestoring", ""]
+- !private ["PSo21UITableViewDataSource", "init"]
+- !private ["PSo19UITableViewDelegate", "init"]
+- !private ["PSo18UITraitEnvironment", "Construct"]
+- !private ["PSo18UITraitEnvironment", "CreateFlatButton"]
+- !private ["PSo18UITraitEnvironment", "MainViewController"]
+- !private ["PSo18UITraitEnvironment", "UIColor"]
+- !private ["PSo18UITraitEnvironment", "WordListViewController"]
+- !private ["PSo18UITraitEnvironment", "addTarget"]
+- ["PSo18UITraitEnvironment", "didReceiveMemoryWarning"]
+- !private ["PSo18UITraitEnvironment", "init"]
+- ["PSo18UITraitEnvironment", "listBtm"]
+- ["PSo18UITraitEnvironment", "missListBtm"]
+- ["PSo18UITraitEnvironment", "moveWordListView"]
+- !private ["PSo18UITraitEnvironment", "navigationController"]
+- !private ["PSo18UITraitEnvironment", "navigationItem"]
+- !private ["PSo18UITraitEnvironment", "pushViewController"]
+- ["PSo18UITraitEnvironment", "setUpButton"]
+- ["PSo18UITraitEnvironment", "testBtm"]
+- ["PSo18UITraitEnvironment", "viewDidLoad"]
+- ["PSo18UITraitEnvironment", ""]
+- !private ["CSo6UIView", "addTarget"]
+- !private ["CSo16UIViewController", "Construct"]
+- !private ["CSo16UIViewController", "CreateFlatButton"]
+- ["CSo16UIViewController", "FUIButton"]
+- !private ["CSo16UIViewController", "MainViewController"]
+- !private ["CSo16UIViewController", "UIColor"]
+- !private ["CSo16UIViewController", "WordListViewController"]
+- ["CSo16UIViewController", "deinit"]
+- ["CSo16UIViewController", "didReceiveMemoryWarning"]
+- ["CSo16UIViewController", "init"]
+- ["CSo16UIViewController", "listBtm"]
+- ["CSo16UIViewController", "missListBtm"]
+- ["CSo16UIViewController", "moveWordListView"]
+- !private ["CSo16UIViewController", "navigationController"]
+- !private ["CSo16UIViewController", "navigationItem"]
+- !private ["CSo16UIViewController", "pushViewController"]
+- ["CSo16UIViewController", "setUpButton"]
+- ["CSo16UIViewController", "testBtm"]
+- ["CSo16UIViewController", "viewDidLoad"]
+- ["CSo16UIViewController", ""]
+- ["C16QuizEnglishWords22WordListViewController", "deinit"]
+- !private ["C16QuizEnglishWords22WordListViewController", "init"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "addTarget"]
+- !private ["Ps26_ExpressibleByColorLiteral", "amethyst"]
+- !private ["Ps26_ExpressibleByColorLiteral", "carrot"]
+- !private ["Ps26_ExpressibleByColorLiteral", "emerland"]
+- !private ["Ps26_ExpressibleByColorLiteral", "nephritis"]
+- !private ["Ps26_ExpressibleByColorLiteral", "pumpkin"]
+- !private ["Ps26_ExpressibleByColorLiteral", "wisteria"]
+- !private ["Ps9_Hashable", "Construct"]
+- !private ["Ps9_Hashable", "CreateFlatButton"]
+- !private ["Ps9_Hashable", "MainViewController"]
+- !private ["Ps9_Hashable", "UIColor"]
+- !private ["Ps9_Hashable", "WordListViewController"]
+- !private ["Ps9_Hashable", "addTarget"]
+- !private ["Ps9_Hashable", "amethyst"]
+- !private ["Ps9_Hashable", "carrot"]
+- ["Ps9_Hashable", "didReceiveMemoryWarning"]
+- !private ["Ps9_Hashable", "emerland"]
+- !private ["Ps9_Hashable", "init"]
+- ["Ps9_Hashable", "listBtm"]
+- ["Ps9_Hashable", "missListBtm"]
+- ["Ps9_Hashable", "moveWordListView"]
+- !private ["Ps9_Hashable", "navigationController"]
+- !private ["Ps9_Hashable", "navigationItem"]
+- !private ["Ps9_Hashable", "nephritis"]
+- !private ["Ps9_Hashable", "pumpkin"]
+- !private ["Ps9_Hashable", "pushViewController"]
+- ["Ps9_Hashable", "setUpButton"]
+- ["Ps9_Hashable", "testBtm"]
+- !private ["Ps9_Hashable", "title"]
+- ["Ps9_Hashable", "viewDidLoad"]
+- !private ["Ps9_Hashable", "wisteria"]
+- ["Ps9_Hashable", ""]
+depends-nominal:
+- "Ps9AnyObject"
+- "Sb"
+- !private "PSo15CALayerDelegate"
+- "Ps7CVarArg"
+- !private "V16QuizEnglishWords9Construct"
+- !private "C16QuizEnglishWords16CreateFlatButton"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- !private "Ps25ExpressibleByArrayLiteral"
+- "CSo9FUIButton"
+- "Ps8Hashable"
+- "SQ"
+- "C16QuizEnglishWords18MainViewController"
+- "CSo7NSCoder"
+- "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- "PSo26NSExtensionRequestHandling"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "Ps9OptionSet"
+- "Sq"
+- !private "Ps16RawRepresentable"
+- "V10ObjectiveC8Selector"
+- !private "Ps10SetAlgebra"
+- "SS"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- !private "CSo8UIButton"
+- !private "CSo7UIColor"
+- "PSo18UIContentContainer"
+- !private "CSo9UIControl"
+- "VSC15UIControlEvents"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- !private "PSo11UIFocusItem"
+- "CSo22UINavigationController"
+- "CSo16UINavigationItem"
+- "CSo11UIResponder"
+- "PSo30UIResponderStandardEditActions"
+- !private "PSo20UIScrollViewDelegate"
+- "PSo16UIStateRestoring"
+- !private "PSo21UITableViewDataSource"
+- !private "PSo19UITableViewDelegate"
+- "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- "CSo16UIViewController"
+- "C16QuizEnglishWords22WordListViewController"
+- !private "Ps37_DefaultCustomPlaygroundQuickLookable"
+- !private "Ps26_ExpressibleByColorLiteral"
+- "Ps9_Hashable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/QuizEnglishWords/QuizEnglishWords-Bridging-Header.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/FlatUIKit/FlatUIKit.framework/Headers/UIPopoverController+FlatUI.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/FlatUIKit/FlatUIKit.framework/Headers/NSString+Icons.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/FlatUIKit/FlatUIKit.framework/Headers/FUIPopoverBackgroundView.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/FlatUIKit/FlatUIKit.framework/Headers/UIToolbar+FlatUI.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/FlatUIKit/FlatUIKit.framework/Headers/UITableViewCell+FlatUI.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/FlatUIKit/FlatUIKit.framework/Headers/UITabBar+FlatUI.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/FlatUIKit/FlatUIKit.framework/Headers/UISlider+FlatUI.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/FlatUIKit/FlatUIKit.framework/Headers/UIStepper+FlatUI.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/FlatUIKit/FlatUIKit.framework/Headers/UIProgressView+FlatUI.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/FlatUIKit/FlatUIKit.framework/Headers/UINavigationBar+FlatUI.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/FlatUIKit/FlatUIKit.framework/Headers/UIImage+FlatUI.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/FlatUIKit/FlatUIKit.framework/Headers/UIFont+FlatUI.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/FlatUIKit/FlatUIKit.framework/Headers/UIColor+FlatUI.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/FlatUIKit/FlatUIKit.framework/Headers/UIBarButtonItem+FlatUI.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/FlatUIKit/FlatUIKit.framework/Headers/FUISwitch.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/FlatUIKit/FlatUIKit.framework/Headers/FUISegmentedControl.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/FlatUIKit/FlatUIKit.framework/Headers/FUICellBackgroundView.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/FlatUIKit/FlatUIKit.framework/Headers/FUIButton.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/FlatUIKit/FlatUIKit.framework/Headers/FUITextField.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/FlatUIKit/FlatUIKit.framework/Headers/FUIAlertView.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/FlatUIKit/FlatUIKit.framework/Headers/FlatUIKit.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/FlatUIKit/FlatUIKit.framework/Headers/FlatUIKit-umbrella.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/FlatUIKit/FlatUIKit.framework/Modules/module.modulemap"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Modules/RealmSwift.swiftmodule/x86_64.swiftmodule"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealm_Dynamic.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMSyncUtil_Private.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMSyncConfiguration_Private.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMSchema_Private.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMResults_Private.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMRealm_Private.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMRealmConfiguration_Private.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMProperty_Private.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMOptionalBase.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMObject_Private.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMObjectStore.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMObjectSchema_Private.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObjectBase_Dynamic.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMListBase.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMArray_Private.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMAccessor.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncUser.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncSession.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncPermissionChange.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncManager.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncCredentials.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncConfiguration.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSchema.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMResults.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncUtil.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealmConfiguration+Sync.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealmConfiguration.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealm.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMConstants.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMProperty.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMPlatform.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObjectSchema.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObjectBase.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObject.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMMigration.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMCollection.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMArray.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/Realm.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Modules/module.modulemap"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Headers/RealmSwift-Swift.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Headers/RealmSwift-umbrella.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Modules/module.modulemap"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/SwiftyJSON.swiftmodule/x86_64.swiftmodule"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-umbrella.h"
+- "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/module.modulemap"
+interface-hash: "af0747a31d940c52a3de58404d25379b"

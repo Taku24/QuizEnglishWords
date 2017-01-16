@@ -1,0 +1,22 @@
+version: "Apple Swift version 3.0.2 (swiftlang-800.0.63 clang-800.0.42.1)"
+options: "c07cbf7669601cce20144e56f0573767"
+build_time: [537255846, 674626000]
+inputs:
+  "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Pods/RealmSwift/RealmSwift/Aliases.swift": [9223372036854775807, 0]
+  "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Pods/RealmSwift/RealmSwift/Error.swift": [9223372036854775807, 0]
+  "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Pods/RealmSwift/RealmSwift/LinkingObjects.swift": [9223372036854775807, 0]
+  "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Pods/RealmSwift/RealmSwift/List.swift": [9223372036854775807, 0]
+  "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Pods/RealmSwift/RealmSwift/Migration.swift": [9223372036854775807, 0]
+  "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Pods/RealmSwift/RealmSwift/Object.swift": [9223372036854775807, 0]
+  "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Pods/RealmSwift/RealmSwift/ObjectSchema.swift": [9223372036854775807, 0]
+  "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Pods/RealmSwift/RealmSwift/Optional.swift": [9223372036854775807, 0]
+  "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Pods/RealmSwift/RealmSwift/Property.swift": [9223372036854775807, 0]
+  "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Pods/RealmSwift/RealmSwift/Realm.swift": [9223372036854775807, 0]
+  "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Pods/RealmSwift/RealmSwift/RealmCollection.swift": [9223372036854775807, 0]
+  "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Pods/RealmSwift/RealmSwift/RealmConfiguration.swift": [9223372036854775807, 0]
+  "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Pods/RealmSwift/RealmSwift/Results.swift": [9223372036854775807, 0]
+  "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Pods/RealmSwift/RealmSwift/Schema.swift": [9223372036854775807, 0]
+  "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Pods/RealmSwift/RealmSwift/SortDescriptor.swift": [9223372036854775807, 0]
+  "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Pods/RealmSwift/RealmSwift/SwiftVersion.swift": [9223372036854775807, 0]
+  "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Pods/RealmSwift/RealmSwift/Sync.swift": [9223372036854775807, 0]
+  "/Users/TAKU/WorkSpace/Swift/QuizEnglishWords/Pods/RealmSwift/RealmSwift/Util.swift": [9223372036854775807, 0]
