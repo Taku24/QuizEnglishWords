@@ -274,7 +274,6 @@
 				TargetAttributes = {
 					31B3B9561DBDDA7D009082B6 = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = 4828JFYCV9;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -508,7 +507,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 4828JFYCV9;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = QuizEnglishWords/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.quiz.apps.QuizEnglishWords;
@@ -524,7 +523,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 4828JFYCV9;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = QuizEnglishWords/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.quiz.apps.QuizEnglishWords;
